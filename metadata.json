@@ -1,0 +1,8 @@
+{
+  "name": "Nakshi Color Chem",
+  "description": "Authorized Distributor of Archroma Textile Effects in Bangladesh, providing high-quality textile dyes, auxiliaries, and technical support.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
