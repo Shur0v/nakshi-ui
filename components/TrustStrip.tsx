@@ -4,10 +4,10 @@ import { ShieldCheck, Clock, Users, Zap } from 'lucide-react';
 
 const TrustStrip: React.FC = () => {
   const items = [
-    { icon: <Clock className="text-blue-600" />, title: 'Years of Experience', desc: 'Deep industry knowledge' },
-    { icon: <ShieldCheck className="text-blue-600" />, title: 'Certified & Compliant', desc: 'Global safety standards' },
-    { icon: <Users className="text-blue-600" />, title: 'Technical Support', desc: 'Expert engineering team' },
-    { icon: <Zap className="text-blue-600" />, title: 'Fast Response', desc: 'Bangladesh-wide coverage' },
+    { icon: <Clock className="text-primary-600" />, title: 'Years of Experience', desc: 'Deep industry knowledge' },
+    { icon: <ShieldCheck className="text-primary-600" />, title: 'Certified & Compliant', desc: 'Global safety standards' },
+    { icon: <Users className="text-primary-600" />, title: 'Technical Support', desc: 'Expert engineering team' },
+    { icon: <Zap className="text-primary-600" />, title: 'Fast Response', desc: 'Bangladesh-wide coverage' },
   ];
 
   return (
@@ -15,7 +15,7 @@ const TrustStrip: React.FC = () => {
       <div className="container mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {items.map((item, i) => (
           <div key={i} className="flex items-center gap-4">
-            <div className="p-3 bg-blue-50 rounded-xl">
+            <div className="p-3 bg-primary-50 rounded-xl">
               {item.icon}
             </div>
             <div>

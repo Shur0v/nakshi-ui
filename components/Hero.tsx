@@ -55,12 +55,12 @@ const Hero: React.FC = () => {
       {/* Hero Content */}
       <div className="container mx-auto px-6 z-10 text-white text-center md:text-left">
         <div className="max-w-4xl animate-in fade-in slide-in-from-bottom-10 duration-1000 fill-mode-both">
-          <div className="inline-flex items-center gap-2 bg-blue-600/20 border border-blue-400/30 px-3 py-1 rounded-full text-blue-300 text-xs font-bold tracking-widest uppercase mb-6">
+          <div className="inline-flex items-center gap-2 bg-primary-600/20 border border-primary-400/30 px-3 py-1 rounded-full text-primary-300 text-xs font-bold tracking-widest uppercase mb-6">
             Authorized Distributor of Archroma
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-[1.1]">
             Textile Color & Chemical <br />
-            <span className="text-blue-400">Solutions, Backed by Archroma</span>
+            <span className="text-primary-400">Solutions, Backed by Archroma</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-200 mb-8 max-w-2xl font-light leading-relaxed">
             We support Bangladesh’s textile industry with reliable supply, technical expertise, and responsible chemistry—helping factories achieve consistent quality and global compliance.
@@ -69,7 +69,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center md:justify-start">
             <a
               href="#contact"
-              className="px-8 py-4 bg-white text-blue-900 rounded-xl font-bold transition-all hover:scale-105 active:scale-95 shadow-xl shadow-white/10"
+              className="px-8 py-4 bg-white text-primary-900 rounded-xl font-bold transition-all hover:scale-105 active:scale-95 shadow-xl shadow-white/10"
             >
               Contact Our Technical Team
             </a>

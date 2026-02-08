@@ -21,7 +21,7 @@ const CeoMessage: React.FC = () => {
           <div className="w-full md:w-3/5 p-8 md:p-16 lg:p-24 flex flex-col justify-center text-white relative">
             <Quote size={64} className="absolute top-10 right-10 text-white/5 -z-0" />
 
-            <h2 className="text-blue-400 font-bold uppercase tracking-widest text-xs mb-6">Leadership Perspective</h2>
+            <h2 className="text-primary-400 font-bold uppercase tracking-widest text-xs mb-6">Leadership Perspective</h2>
             <h3 className="text-3xl lg:text-4xl font-bold mb-8 leading-tight">
               Message From the CEO
             </h3>
@@ -33,9 +33,9 @@ const CeoMessage: React.FC = () => {
                 Through trusted global partnerships, strong technical support, and responsible chemistry, we remain committed to supporting Bangladesh’s textile industry with reliability, transparency, and long-term value."
               </p>
 
-              <div className="border-l-2 border-blue-500 pl-6">
+              <div className="border-l-2 border-primary-500 pl-6">
                 <h4 className="text-xl font-bold">Engr. Japar Uddin Chowdhury (Sabuj)</h4>
-                <p className="text-blue-400 font-medium">Cheif Executive Officer(CEO) <br /> Nakshi Color Chem</p>
+                <p className="text-primary-400 font-medium">Cheif Executive Officer(CEO) <br /> Nakshi Color Chem</p>
               </div>
             </div>
           </div>

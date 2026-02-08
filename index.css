@@ -1,0 +1,26 @@
+:root {
+  /* Base color: #116208 (Primary-500) */
+  --primary-50: #f4fdf4;
+  --primary-100: #e6fbe7;
+  --primary-200: #cff7d1;
+  --primary-300: #a7eca9;
+  --primary-400: #74db78;
+  --primary-500: #116208;
+  /* The requested main color */
+  --primary-600: #0c5206;
+  --primary-700: #0a4205;
+  --primary-800: #083505;
+  --primary-900: #062c04;
+  --primary-950: #031802;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-slate-50 text-slate-900;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}

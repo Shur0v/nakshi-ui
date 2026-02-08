@@ -25,7 +25,7 @@ const Gallery: React.FC = () => {
     <div className="py-24 bg-white" id="gallery">
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mb-16">
-          <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Our Operations</h2>
+          <h2 className="text-primary-600 font-bold tracking-widest uppercase text-sm mb-4">Our Operations</h2>
           <h3 className="text-4xl font-extrabold text-slate-900 mb-4">Gallery</h3>
           <p className="text-lg text-slate-600">A look at our work, support activities, and the industries we serve in Bangladesh.</p>
         </div>
@@ -56,7 +56,7 @@ const Gallery: React.FC = () => {
           <div className="flex justify-center mt-12">
             <button
               onClick={handleLoadMore}
-              className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-full transition-all shadow-lg hover:shadow-blue-500/25 active:scale-95"
+              className="px-8 py-3 bg-primary-600 hover:bg-primary-700 text-white font-bold rounded-full transition-all shadow-lg hover:shadow-primary-500/25 active:scale-95"
             >
               Load More
             </button>

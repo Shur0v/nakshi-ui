@@ -45,7 +45,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
             <a
               key={item.label}
               href={item.href}
-              className={`text-sm font-bold transition-colors hover:text-blue-500 ${isScrolled ? 'text-slate-800' : 'text-white'
+              className={`text-sm font-bold transition-colors hover:text-primary-500 ${isScrolled ? 'text-slate-800' : 'text-white'
                 }`}
             >
               {item.label}
@@ -53,7 +53,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
           ))}
           <a
             href="#contact"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-full text-sm font-bold flex items-center gap-2 transition-transform active:scale-95 shadow-lg shadow-blue-500/20"
+            className="bg-primary-600 hover:bg-primary-700 text-white px-5 py-2.5 rounded-full text-sm font-bold flex items-center gap-2 transition-transform active:scale-95 shadow-lg shadow-primary-500/20"
           >
             Request Info <ChevronRight size={16} />
           </a>
@@ -80,7 +80,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-slate-800 text-lg font-medium hover:text-blue-600 border-b border-slate-50 pb-2"
+                className="text-slate-800 text-lg font-medium hover:text-primary-600 border-b border-slate-50 pb-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.label}
@@ -88,7 +88,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
             ))}
             <a
               href="#contact"
-              className="bg-blue-600 text-white px-6 py-4 rounded-xl text-center font-bold"
+              className="bg-primary-600 text-white px-6 py-4 rounded-xl text-center font-bold"
               onClick={() => setMobileMenuOpen(false)}
             >
               Request Product Info

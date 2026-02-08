@@ -26,13 +26,13 @@ const Footer: React.FC = () => {
               Authorized Distributor of Archroma Textile Effects in Bangladesh. We provide technical precision, reliable supply, and sustainable chemical solutions for the textile industry.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors">
                 <Facebook size={18} />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors">
                 <Linkedin size={18} />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors">
+              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors">
                 <Twitter size={18} />
               </a>
             </div>
@@ -58,14 +58,14 @@ const Footer: React.FC = () => {
               </div>
               <div>
                 <span className="block font-semibold text-white mb-1">Email:</span>
-                <a href="mailto:info@nakshicolorchembd.com" className="hover:text-blue-400 transition-colors">info@nakshicolorchembd.com</a><br />
-                <a href="mailto:sabuj@nakshicolorchembd.com" className="hover:text-blue-400 transition-colors">sabuj@nakshicolorchembd.com</a>
+                <a href="mailto:info@nakshicolorchembd.com" className="hover:text-primary-400 transition-colors">info@nakshicolorchembd.com</a><br />
+                <a href="mailto:sabuj@nakshicolorchembd.com" className="hover:text-primary-400 transition-colors">sabuj@nakshicolorchembd.com</a>
               </div>
               <div>
                 <span className="block font-semibold text-white mb-1">Phone:</span>
-                <a href="tel:+8802222221769" className="hover:text-blue-400 transition-colors block">+8802 222221769</a>
-                <a href="tel:+8801799089338" className="hover:text-blue-400 transition-colors block">+88 01799089338</a>
-                <a href="tel:+8801722199933" className="hover:text-blue-400 transition-colors block">+88 01722199933</a>
+                <a href="tel:+8802222221769" className="hover:text-primary-400 transition-colors block">+8802 222221769</a>
+                <a href="tel:+8801799089338" className="hover:text-primary-400 transition-colors block">+88 01799089338</a>
+                <a href="tel:+8801722199933" className="hover:text-primary-400 transition-colors block">+88 01722199933</a>
               </div>
             </div>
           </div>

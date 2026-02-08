@@ -26,7 +26,7 @@ const ProductList: React.FC = () => {
     <div className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Our Portfolio</h2>
+          <h2 className="text-primary-600 font-bold tracking-widest uppercase text-sm mb-4">Our Portfolio</h2>
           <h3 className="text-4xl font-extrabold text-slate-900 mb-6">Product List (High-Level Categories)</h3>
           <p className="text-lg text-slate-600 leading-relaxed">
             We provide a broad portfolio of textile dyes and auxiliaries from Archroma. To keep your selection accurate and compliant, we share detailed specifications upon request.
@@ -38,13 +38,13 @@ const ProductList: React.FC = () => {
           <div className="bg-slate-100 p-1.5 rounded-2xl flex gap-1">
             <button 
               onClick={() => setActiveTab('Dyes')}
-              className={`px-8 py-3 rounded-xl font-bold transition-all ${activeTab === 'Dyes' ? 'bg-white shadow-md text-blue-600' : 'text-slate-500 hover:text-slate-800'}`}
+              className={`px-8 py-3 rounded-xl font-bold transition-all ${activeTab === 'Dyes' ? 'bg-white shadow-md text-primary-600' : 'text-slate-500 hover:text-slate-800'}`}
             >
               Dyes
             </button>
             <button 
               onClick={() => setActiveTab('Auxiliaries')}
-              className={`px-8 py-3 rounded-xl font-bold transition-all ${activeTab === 'Auxiliaries' ? 'bg-white shadow-md text-blue-600' : 'text-slate-500 hover:text-slate-800'}`}
+              className={`px-8 py-3 rounded-xl font-bold transition-all ${activeTab === 'Auxiliaries' ? 'bg-white shadow-md text-primary-600' : 'text-slate-500 hover:text-slate-800'}`}
             >
               Auxiliaries & Chemicals
             </button>
@@ -56,14 +56,14 @@ const ProductList: React.FC = () => {
           <div className="grid grid-cols-1 gap-4">
             {activeTab === 'Dyes' ? (
               dyes.map((item, i) => (
-                <div key={i} className="group p-6 bg-slate-50 border border-slate-100 rounded-2xl hover:border-blue-200 hover:bg-white hover:shadow-xl transition-all duration-300">
+                <div key={i} className="group p-6 bg-slate-50 border border-slate-100 rounded-2xl hover:border-primary-200 hover:bg-white hover:shadow-xl transition-all duration-300">
                   <div className="flex items-center gap-4 mb-3">
-                    <div className="p-3 bg-blue-100 text-blue-600 rounded-xl">
+                    <div className="p-3 bg-primary-100 text-primary-600 rounded-xl">
                       <Palette size={20} />
                     </div>
                     <div>
                       <h4 className="font-bold text-slate-900">{item.title}</h4>
-                      <p className="text-blue-600 text-xs font-bold uppercase tracking-wide">{item.brand}</p>
+                      <p className="text-primary-600 text-xs font-bold uppercase tracking-wide">{item.brand}</p>
                     </div>
                   </div>
                   <p className="text-slate-600 text-sm leading-relaxed">{item.desc}</p>
@@ -71,7 +71,7 @@ const ProductList: React.FC = () => {
               ))
             ) : (
               auxiliaries.map((item, i) => (
-                <div key={i} className="group p-6 bg-slate-50 border border-slate-100 rounded-2xl hover:border-blue-200 hover:bg-white hover:shadow-xl transition-all duration-300">
+                <div key={i} className="group p-6 bg-slate-50 border border-slate-100 rounded-2xl hover:border-primary-200 hover:bg-white hover:shadow-xl transition-all duration-300">
                   <div className="flex items-center gap-4 mb-3">
                     <div className="p-3 bg-indigo-100 text-indigo-600 rounded-xl">
                       <Beaker size={20} />
@@ -90,7 +90,7 @@ const ProductList: React.FC = () => {
               Share your fabric type, process, and target performance. We’ll recommend the right solution and provide full technical data.
             </p>
             <div className="space-y-4">
-              <a href="#contact" className="flex items-center justify-between w-full px-6 py-4 bg-blue-600 rounded-xl font-bold transition-all hover:bg-blue-700">
+              <a href="#contact" className="flex items-center justify-between w-full px-6 py-4 bg-primary-600 rounded-xl font-bold transition-all hover:bg-primary-700">
                 Request Product Details <ArrowRight size={20} />
               </a>
               <a href="#contact" className="flex items-center justify-between w-full px-6 py-4 bg-white/10 border border-white/20 rounded-xl font-bold transition-all hover:bg-white/20">

@@ -16,12 +16,12 @@ const About: React.FC = () => {
               />
             </div>
             {/* Decorative background shape */}
-            <div className="absolute -top-10 -left-10 w-40 h-40 bg-blue-600/10 rounded-full blur-3xl -z-0" />
-            <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-blue-600/5 rounded-full blur-3xl -z-0" />
+            <div className="absolute -top-10 -left-10 w-40 h-40 bg-primary-600/10 rounded-full blur-3xl -z-0" />
+            <div className="absolute -bottom-10 -right-10 w-60 h-60 bg-primary-600/5 rounded-full blur-3xl -z-0" />
           </div>
 
           <div className="w-full lg:w-1/2">
-            <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Company Overview</h2>
+            <h2 className="text-primary-600 font-bold tracking-widest uppercase text-sm mb-4">Company Overview</h2>
             <h3 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
               About Nakshi Color Chem
             </h3>
@@ -36,7 +36,7 @@ const About: React.FC = () => {
                 'Responsible chemistry aligned with modern compliance expectations'
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-4">
-                  <CheckCircle2 className="text-blue-600 flex-shrink-0 mt-1" size={20} />
+                  <CheckCircle2 className="text-primary-600 flex-shrink-0 mt-1" size={20} />
                   <p className="text-slate-800 font-medium">{item}</p>
                 </div>
               ))}
@@ -44,15 +44,15 @@ const About: React.FC = () => {
 
             <div className="mt-12 flex flex-wrap gap-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex-1 min-w-[200px]">
-                <div className="text-3xl font-black text-blue-600 mb-1">Since 2013</div>
+                <div className="text-3xl font-black text-primary-600 mb-1">Since 2013</div>
                 <div className="text-sm text-slate-500 font-medium uppercase tracking-tight whitespace-nowrap">Authorized Distributor</div>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex-1 min-w-[200px]">
-                <div className="text-3xl font-black text-blue-600 mb-1">100%</div>
+                <div className="text-3xl font-black text-primary-600 mb-1">100%</div>
                 <div className="text-sm text-slate-500 font-medium uppercase tracking-tight">Archroma Authorized</div>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex-1 min-w-[200px]">
-                <div className="text-3xl font-black text-blue-600 mb-1">Local</div>
+                <div className="text-3xl font-black text-primary-600 mb-1">Local</div>
                 <div className="text-sm text-slate-500 font-medium uppercase tracking-tight">Bangladesh Expertise</div>
               </div>
             </div>

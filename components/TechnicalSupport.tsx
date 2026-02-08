@@ -5,22 +5,22 @@ import { Microscope, Info, TestTube, Headphones } from 'lucide-react';
 const TechnicalSupport: React.FC = () => {
   const services = [
     {
-      icon: <Microscope size={32} className="text-blue-600" />,
+      icon: <Microscope size={32} className="text-primary-600" />,
       title: 'Testing & Lab Support',
       desc: 'Testing guidance and process recommendations for optimal results.'
     },
     {
-      icon: <Info size={32} className="text-blue-600" />,
+      icon: <Info size={32} className="text-primary-600" />,
       title: 'Information Services',
       desc: 'Support around industry expectations, compliance, and process updates.'
     },
     {
-      icon: <TestTube size={32} className="text-blue-600" />,
+      icon: <TestTube size={32} className="text-primary-600" />,
       title: 'Sampling & Customization',
       desc: 'Selecting suitable solutions specifically tailored for your operation.'
     },
     {
-      icon: <Headphones size={32} className="text-blue-600" />,
+      icon: <Headphones size={32} className="text-primary-600" />,
       title: 'After-Sales Support',
       desc: 'Ongoing coordination to maintain results and supply continuity.'
     }
@@ -31,7 +31,7 @@ const TechnicalSupport: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="w-full lg:w-1/2">
-            <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Service Ecosystem</h2>
+            <h2 className="text-primary-600 font-bold tracking-widest uppercase text-sm mb-4">Service Ecosystem</h2>
             <h3 className="text-4xl font-extrabold text-slate-900 mb-6">Technical & Lab Support</h3>
             <p className="text-xl text-slate-600 mb-10 leading-relaxed">
               Our support goes beyond supply. We work with your team to help you achieve consistent results and reduce trial-and-error in your production facility.

@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
         <div className="flex flex-col lg:flex-row gap-16">
           {/* Info Side */}
           <div className="w-full lg:w-2/5 flex flex-col">
-            <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-4">Get In Touch</h2>
+            <h2 className="text-primary-600 font-bold tracking-widest uppercase text-sm mb-4">Get In Touch</h2>
             <h3 className="text-4xl font-extrabold text-slate-900 mb-6">Contact Us</h3>
             <p className="text-lg text-slate-600 mb-10 leading-relaxed">
               Tell us your fabric type, process, and required performance. Our team will respond with the right product direction and technical guidance.
@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
 
             <div className="space-y-8 flex-grow">
               <div className="flex gap-4">
-                <div className="p-4 bg-white rounded-2xl shadow-sm border border-slate-100 text-blue-600 h-fit">
+                <div className="p-4 bg-white rounded-2xl shadow-sm border border-slate-100 text-primary-600 h-fit">
                   <MapPin size={24} />
                 </div>
                 <div>
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
               </div>
 
               <div className="flex gap-4">
-                <div className="p-4 bg-white rounded-2xl shadow-sm border border-slate-100 text-blue-600 h-fit">
+                <div className="p-4 bg-white rounded-2xl shadow-sm border border-slate-100 text-primary-600 h-fit">
                   <Phone size={24} />
                 </div>
                 <div>
@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
               </div>
 
               <div className="flex gap-4">
-                <div className="p-4 bg-white rounded-2xl shadow-sm border border-slate-100 text-blue-600 h-fit">
+                <div className="p-4 bg-white rounded-2xl shadow-sm border border-slate-100 text-primary-600 h-fit">
                   <Mail size={24} />
                 </div>
                 <div>
@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
               </div>
 
               <div className="flex gap-4">
-                <div className="p-4 bg-white rounded-2xl shadow-sm border border-slate-100 text-blue-600 h-fit">
+                <div className="p-4 bg-white rounded-2xl shadow-sm border border-slate-100 text-primary-600 h-fit">
                   <Clock size={24} />
                 </div>
                 <div>
@@ -64,7 +64,7 @@ const Contact: React.FC = () => {
               </div>
             </div>
 
-            <div className="mt-12 bg-blue-600 p-6 rounded-2xl text-white shadow-lg">
+            <div className="mt-12 bg-primary-600 p-6 rounded-2xl text-white shadow-lg">
               <h4 className="font-bold mb-2">Service Areas</h4>
               <p className="text-white/80 text-sm">Nationwide Support in Bangladesh - Specialized logistics for major industrial hubs.</p>
             </div>
@@ -76,23 +76,23 @@ const Contact: React.FC = () => {
               <form className="grid grid-cols-1 md:grid-cols-2 gap-6 h-full content-between" onSubmit={(e) => e.preventDefault()}>
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 ml-1">Name</label>
-                  <input type="text" placeholder="John Doe" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all" />
+                  <input type="text" placeholder="John Doe" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:bg-white transition-all" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 ml-1">Company / Factory Name</label>
-                  <input type="text" placeholder="Global Textiles Ltd" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all" />
+                  <input type="text" placeholder="Global Textiles Ltd" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:bg-white transition-all" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 ml-1">Email / Phone</label>
-                  <input type="text" placeholder="john@example.com" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all" />
+                  <input type="text" placeholder="john@example.com" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:bg-white transition-all" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 ml-1">City</label>
-                  <input type="text" placeholder="Dhaka" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all" />
+                  <input type="text" placeholder="Dhaka" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:bg-white transition-all" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 ml-1">Process Type</label>
-                  <select className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all">
+                  <select className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:bg-white transition-all">
                     <option>Dyeing</option>
                     <option>Washing</option>
                     <option>Finishing</option>
@@ -102,14 +102,14 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-slate-700 ml-1">Fabric Type</label>
-                  <input type="text" placeholder="Cotton, Polyester, etc." className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all" />
+                  <input type="text" placeholder="Cotton, Polyester, etc." className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:bg-white transition-all" />
                 </div>
                 <div className="md:col-span-2 space-y-2">
                   <label className="text-sm font-bold text-slate-700 ml-1">Message</label>
-                  <textarea rows={4} placeholder="How can we help your operations today?" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white transition-all"></textarea>
+                  <textarea rows={4} placeholder="How can we help your operations today?" className="w-full px-5 py-4 bg-slate-50 border border-slate-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:bg-white transition-all"></textarea>
                 </div>
                 <div className="md:col-span-2 pt-4">
-                  <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-5 rounded-xl shadow-lg shadow-blue-500/30 transition-all flex items-center justify-center gap-3 active:scale-[0.98]">
+                  <button type="submit" className="w-full bg-primary-600 hover:bg-primary-700 text-white font-bold py-5 rounded-xl shadow-lg shadow-primary-500/30 transition-all flex items-center justify-center gap-3 active:scale-[0.98]">
                     Send Message <Send size={20} />
                   </button>
                 </div>
