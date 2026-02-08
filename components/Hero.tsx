@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
             <span className="text-primary-400">Solutions, Backed by Archroma</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-200 mb-8 max-w-2xl font-light leading-relaxed">
-            We support Bangladesh’s textile industry with reliable supply, technical expertise, and responsible chemistry—helping factories achieve consistent quality and global compliance.
+            We support Bangladesh’s textile industry with reliable supply, technical expertise, and responsible chemistry helping factories achieve consistent quality and global compliance.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center md:justify-start">
