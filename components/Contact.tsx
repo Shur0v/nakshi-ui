@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900">Office Address</h4>
-                  <p className="text-slate-500 text-sm">House #02 (2nd Floor), Road #06, Sector #04, Uttara, Dhaka-1230, Bangladesh</p>
+                  <p className="text-slate-500 text-sm">32/B (1st Floor), Malibagh Chowdhurypara, Malibagh, Dhaka-1219</p>
                 </div>
               </div>
 
@@ -32,7 +32,11 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900">Phone</h4>
-                  <p className="text-slate-500 text-sm">+880 1234 567890</p>
+                  <div className="text-slate-500 text-sm flex flex-col">
+                    <span>+8802 222221769</span>
+                    <span>+88 01799089338</span>
+                    <span>+88 01722199933</span>
+                  </div>
                 </div>
               </div>
 
@@ -42,7 +46,10 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900">Email</h4>
-                  <p className="text-slate-500 text-sm">info@nakshicolorchem.com</p>
+                  <div className="text-slate-500 text-sm flex flex-col">
+                    <span>info@nakshicolorchembd.com</span>
+                    <span>sabuj@nakshicolorchembd.com</span>
+                  </div>
                 </div>
               </div>
 

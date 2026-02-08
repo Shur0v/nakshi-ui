@@ -50,11 +50,23 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="font-bold text-lg mb-6">Newsletter</h4>
-            <p className="text-slate-400 text-sm mb-4">Stay updated with our latest products and industry insights.</p>
-            <div className="flex gap-2">
-              <input type="email" placeholder="Email address" className="bg-white/5 border border-white/10 rounded-lg px-4 py-2 w-full focus:outline-none focus:ring-1 focus:ring-blue-500" />
-              <button className="bg-blue-600 px-4 py-2 rounded-lg font-bold hover:bg-blue-700">Join</button>
+            <h4 className="font-bold text-lg mb-6">Contact Us</h4>
+            <div className="flex flex-col gap-4 text-slate-400 text-sm">
+              <div>
+                <span className="block font-semibold text-white mb-1">Office:</span>
+                32/B (1st Floor), Malibagh Chowdhurypara, Malibagh, Dhaka-1219
+              </div>
+              <div>
+                <span className="block font-semibold text-white mb-1">Email:</span>
+                <a href="mailto:info@nakshicolorchembd.com" className="hover:text-blue-400 transition-colors">info@nakshicolorchembd.com</a><br />
+                <a href="mailto:sabuj@nakshicolorchembd.com" className="hover:text-blue-400 transition-colors">sabuj@nakshicolorchembd.com</a>
+              </div>
+              <div>
+                <span className="block font-semibold text-white mb-1">Phone:</span>
+                <a href="tel:+8802222221769" className="hover:text-blue-400 transition-colors block">+8802 222221769</a>
+                <a href="tel:+8801799089338" className="hover:text-blue-400 transition-colors block">+88 01799089338</a>
+                <a href="tel:+8801722199933" className="hover:text-blue-400 transition-colors block">+88 01722199933</a>
+              </div>
             </div>
           </div>
         </div>

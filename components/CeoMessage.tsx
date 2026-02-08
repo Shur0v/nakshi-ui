@@ -32,7 +32,7 @@ const CeoMessage: React.FC = () => {
               </p>
 
               <div className="border-l-2 border-blue-500 pl-6">
-                <h4 className="text-xl font-bold">Engr. Jafar Uddin Chowdhury</h4>
+                <h4 className="text-xl font-bold">Engr. Japab Uddin Chowdhury</h4>
                 <p className="text-blue-400 font-medium">CEO, Nakshi Color Chem</p>
               </div>
             </div>
