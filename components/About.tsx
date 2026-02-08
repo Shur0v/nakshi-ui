@@ -42,7 +42,13 @@ const About: React.FC = () => {
               ))}
             </div>
 
-            <div className="mt-12 flex flex-wrap gap-4">
+            <div className="mt-8 mb-6">
+              <span className="inline-block bg-primary-600 text-white border-2 border-primary-600 px-5 py-3 rounded-xl text-md text-center font-bold shadow-lg">
+                Proudly official distributor for Huntsman Textile Effects from 2015–2025
+              </span>
+            </div>
+
+            <div className="mt-4 flex flex-wrap gap-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex-1 min-w-[200px]">
                 <div className="text-3xl font-black text-primary-600 mb-1">Since 2013</div>
                 <div className="text-sm text-slate-500 font-medium uppercase tracking-tight whitespace-nowrap">Authorized Distributor</div>
