@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
   ];
 
   return (
-    <div className="relative h-[100vh] w-full overflow-hidden flex items-center justify-center bg-slate-900">
+    <div className="relative min-h-screen w-full overflow-hidden flex items-center justify-center bg-slate-900 py-28 md:py-0">
       {/* Video Background Layer */}
       <div className="absolute inset-0 z-0">
         <video
@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
       {/* Hero Content */}
       <div className="container mx-auto px-6 z-10 text-white text-center md:text-left">
         <div className="max-w-4xl animate-in fade-in slide-in-from-bottom-10 duration-1000 fill-mode-both">
-          <div className="inline-flex items-center gap-2 bg-blue-600/20 border border-blue-400/30 px-3 py-1 rounded-full text-blue-300 text-[10px] md:text-xs font-bold tracking-widest uppercase mb-6">
+          <div className="inline-flex items-center gap-2 bg-blue-600/20 border border-blue-400/30 px-3 py-1 rounded-full text-blue-300 text-xs font-bold tracking-widest uppercase mb-6">
             Authorized Distributor of Archroma
           </div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-[1.1]">
