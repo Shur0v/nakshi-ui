@@ -44,7 +44,7 @@ const About: React.FC = () => {
 
             <div className="mt-8 mb-6">
               <span className="inline-block bg-primary-600 text-white border-2 border-primary-600 px-5 py-3 rounded-xl text-md text-center font-bold shadow-lg">
-                Proudly official distributor for Huntsman Textile Effects from 2015–2025
+                We worked as proud distributor of Huntsman textile effects from 2015-2025
               </span>
             </div>
 
