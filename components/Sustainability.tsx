@@ -38,7 +38,7 @@ const Sustainability: React.FC = () => {
               ))}
             </div>
 
-            <div className="inline-flex items-center gap-3 px-5 py-3 bg-green-100 text-green-700 rounded-full font-bold text-sm">
+            <div className="inline-flex items-center gap-3 px-5 py-3 bg-green-100 text-green-700 rounded-full font-bold text-sm whitespace-nowrap">
               <ShieldCheck size={18} /> Supporting ZDHC & Bluesign standards
             </div>
           </div>
