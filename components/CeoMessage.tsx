@@ -28,7 +28,9 @@ const CeoMessage: React.FC = () => {
 
             <div className="relative z-10">
               <p className="text-lg lg:text-xl text-slate-300 leading-relaxed italic mb-10">
-                "Nakshi Color Chem is built on technical precision, integrity, and long-term partnership. As Bangladesh’s Sole Authorized Distributor of Archroma Textile Effects, we are committed to reliable supply, responsible chemistry, and strong technical support—helping our clients deliver consistent quality and meet global standards with confidence."
+                "My career in the textile industry began in 2001, guided by a strong belief in technical precision and integrity. After the early success of Optitex Solution (2009) and Green Solution (2011), Nakshi Color Chem was established in 2013. We proudly served as a distributor for Huntsman Textile Effects from 2015 to 2025 and now manage a portfolio of over 500 premium products. <br /> <br />
+
+                Through trusted global partnerships, strong technical support, and responsible chemistry, we remain committed to supporting Bangladesh’s textile industry with reliability, transparency, and long-term value."
               </p>
 
               <div className="border-l-2 border-blue-500 pl-6">

@@ -12,7 +12,6 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
   const navItems = [
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
-    { label: 'CEO Message', href: '#message' },
     { label: 'Why Us', href: '#why-us' },
     { label: 'Products', href: '#products' },
     { label: 'Support', href: '#support' },

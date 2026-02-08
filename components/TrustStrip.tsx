@@ -14,7 +14,7 @@ const TrustStrip: React.FC = () => {
     <div className="bg-white border-b border-slate-100 py-10 relative z-20 shadow-lg -mt-8 mx-4 rounded-2xl md:mx-auto md:max-w-6xl">
       <div className="container mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {items.map((item, i) => (
-          <div key={i} className="flex items-start gap-4">
+          <div key={i} className="flex items-center gap-4">
             <div className="p-3 bg-blue-50 rounded-xl">
               {item.icon}
             </div>
@@ -25,14 +25,14 @@ const TrustStrip: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="mt-8 flex justify-center items-center gap-6 opacity-40 grayscale transition-all hover:grayscale-0 hover:opacity-100">
+      {/* <div className="mt-8 flex justify-center items-center gap-6 opacity-40 grayscale transition-all hover:grayscale-0 hover:opacity-100">
         <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Trusted Distributor of</span>
-        <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Archroma_logo.svg" 
-          alt="Archroma Logo" 
-          className="h-6"
+        <img
+          src="/Archroma-Management.png"
+          alt="Archroma Management"
+          className="h-12 object-contain"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

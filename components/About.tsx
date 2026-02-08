@@ -44,6 +44,10 @@ const About: React.FC = () => {
 
             <div className="mt-12 flex flex-wrap gap-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex-1 min-w-[200px]">
+                <div className="text-3xl font-black text-blue-600 mb-1">Since 2013</div>
+                <div className="text-sm text-slate-500 font-medium uppercase tracking-tight whitespace-nowrap">Authorized Distributor</div>
+              </div>
+              <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex-1 min-w-[200px]">
                 <div className="text-3xl font-black text-blue-600 mb-1">100%</div>
                 <div className="text-sm text-slate-500 font-medium uppercase tracking-tight">Archroma Authorized</div>
               </div>
