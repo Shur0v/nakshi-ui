@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
   ];
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden flex items-center justify-center bg-slate-900 py-28 md:py-0">
+    <div className="relative min-h-screen w-full overflow-hidden flex items-center justify-center py-28 md:py-0" style={{ backgroundColor: '#0f172a' }}>
       {/* Video Background Layer */}
       <div className="absolute inset-0 z-0">
         <video
@@ -45,11 +45,13 @@ const Hero: React.FC = () => {
           muted
           loop={false}
           playsInline
-          className="w-full h-full object-cover brightness-[0.45] scale-[1.01]"
+          className="w-full h-full object-cover brightness-[0.7] scale-[1.01]"
           aria-label="Textile chemistry innovation - dynamic color reaction video background."
         />
-        {/* Gradients and Overlays for better text readability */}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/30 to-slate-900/50" />
+        {/* Left-side dark overlay — keeps text legible, right side fully clear */}
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(15,23,42,0.97) 0%, rgba(15,23,42,0.85) 35%, rgba(15,23,42,0.30) 60%, rgba(15,23,42,0.00) 100%)' }} />
+        {/* Bottom-only fade — just the very bottom strip */}
+        <div className="absolute bottom-0 left-0 right-0 h-32" style={{ background: 'linear-gradient(to top, rgba(15,23,42,0.85), transparent)' }} />
       </div>
 
       {/* Hero Content */}
