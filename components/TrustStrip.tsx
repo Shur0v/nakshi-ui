@@ -25,14 +25,7 @@ const TrustStrip: React.FC = () => {
           </div>
         ))}
       </div>
-      {/* <div className="mt-8 flex justify-center items-center gap-6 opacity-40 grayscale transition-all hover:grayscale-0 hover:opacity-100">
-        <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Trusted Distributor of</span>
-        <img
-          src="/Archroma-Management.png"
-          alt="Archroma Management"
-          className="h-12 object-contain"
-        />
-      </div> */}
+
     </div>
   );
 };

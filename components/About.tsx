@@ -43,6 +43,20 @@ const About: React.FC = () => {
             </div>
 
             <div className="mt-8 mb-6">
+              <div className="flex items-center gap-6 mb-4">
+
+                <img
+                  src="/Archroma-Management.png"
+                  alt="Archroma Management"
+                  className="h-12 object-contain"
+                />
+                <img
+                  src="https://d1io3yog0oux5.cloudfront.net/_9527579c5922ac4bd8d551e2c19096c5/huntsman/files/theme/images/logo.svg"
+                  alt="Huntsman"
+                  className="h-12 object-contain"
+                />
+
+              </div>
               <span className="inline-block bg-primary-600 text-white border-2 border-primary-600 px-5 py-3 rounded-xl text-md text-center font-bold shadow-lg">
                 We worked as proud distributor of Huntsman textile effects from 2015-2025
               </span>
