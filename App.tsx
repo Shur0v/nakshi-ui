@@ -6,6 +6,7 @@ import TrustStrip from './components/TrustStrip';
 import About from './components/About';
 import CeoMessage from './components/CeoMessage';
 import WhyUs from './components/WhyUs';
+import Authorization from './components/Authorization';
 import ProductList from './components/ProductList';
 import Blog from './components/Blog';
 import TechnicalSupport from './components/TechnicalSupport';
@@ -38,6 +39,9 @@ const App: React.FC = () => {
         </section>
         <section id="message">
           <CeoMessage />
+        </section>
+        <section id="authorization">
+          <Authorization />
         </section>
         <section id="why-us">
           <WhyUs />
