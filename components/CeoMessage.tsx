@@ -28,9 +28,13 @@ const CeoMessage: React.FC = () => {
 
             <div className="relative z-10">
               <p className="text-lg lg:text-xl text-slate-300 leading-relaxed italic mb-10">
-                "My career in the textile industry began in 2001, guided by a strong belief in technical precision and integrity. After the early success of Optitex Solution (2009) and Green Solution (2011), Nakshi Color Chem was established in 2013. We proudly served as a distributor for Huntsman Textile Effects from 2015 to 2025 and now manage a portfolio of over 500 premium products. <br /> <br />
+                "My career in the textile industry began in 2001, guided by a strong belief in technical precision and integrity. Since then, I have worked across various sectors of the textile and chemical industries, gaining extensive experience and insight into the evolving needs of the market.
 
-                Through trusted global partnerships, strong technical support, and responsible chemistry, we remain committed to supporting Bangladesh’s textile industry with reliability, transparency, and long-term value."
+                After the early success of Optitex Solutions (2009) and Green Solutions (2011), I established Nakshi Color Chem in 2013 with a clear and ambitious vision to contribute to transforming and strengthening Bangladesh’s garments and textile industry through innovation, quality, and responsible chemistry. Today, as the pioneer of Nakshi Color Chem, I remain committed to driving positive change in the industry. <br /> <br />
+
+                We proudly served as a distributor for Huntsman Textile Effects from 2015 to 2025 and now manage a portfolio of over 500 premium products.
+
+                Through trusted global partnerships, strong technical support, and responsible chemistry, we continue to support Bangladesh’s textile industry with reliability, transparency, and long-term value."
               </p>
 
               <div className="border-l-2 border-primary-500 pl-6">
