@@ -3,23 +3,33 @@ import React, { useState } from 'react';
 import { X } from 'lucide-react';
 
 const Gallery: React.FC = () => {
-  const [visibleCount, setVisibleCount] = useState(8); // Start with 8 images
+  const [visibleCount, setVisibleCount] = useState(8);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const maxImages = 50;
   const increment = 4;
 
-  const sourceImages = Array.from({ length: 10 }, (_, i) => `/gallary${i + 1}.jpg`);
+  const sourceImages = [
+    { url: 'https://images.stockcake.com/public/f/d/2/fd2a5e87-2695-4361-b55e-7f48a887469d_large/textile-factory-colors-stockcake.jpg', alt: 'Textile Factory Colors' },
+    { url: 'https://www.shutterstock.com/image-photo/amritsar-punjab-indiamarch-16-2016-600nw-2475301311.jpg', alt: 'Textile Dyeing Operations' },
+    { url: 'https://5.imimg.com/data5/SELLER/Default/2022/9/YT/MF/QL/3526160/0w8a5619-1024x683.jpg', alt: 'Fabric Processing' },
+    { url: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzV8DAiC4F3YeyHuzhm5BS7EE17IfSHkNkrxrQWDxZiSPpexiy2htVqvLymIBQhkCXVtsqlRD32rFSxNKtJChZzRHBytviiqXkuJH3HOSTGb8BuXX8kq860717wTbIwxA58wIDb-4rDTOA/s1600/dyeing_textileaid.blogspot.com.jpg', alt: 'Textile Dyeing Process' },
+    { url: 'https://www.shutterstock.com/image-photo/amritsar-punjab-indiamarch-16-2016-600nw-2475301313.jpg', alt: 'Fabric Dyeing Workshop' },
+    { url: 'https://t4.ftcdn.net/jpg/09/32/04/49/360_F_932044993_ZU2a1Km73TwgJAgnNABiKInMuYhigfVy.jpg', alt: 'Textile Chemical Solutions' },
+    { url: 'https://t3.ftcdn.net/jpg/10/84/16/28/360_F_1084162889_Y54hXPD6JCdGjM8rm6A72hKHDCeZWQ7l.jpg', alt: 'Fabric Processing Lab' },
+    { url: 'https://seamapparel.com/wp-content/uploads/2024/07/fabric-dyeing-2.jpg', alt: 'Fabric Dyeing' },
+    { url: 'https://t3.ftcdn.net/jpg/19/08/83/02/360_F_1908830225_ZEGE8E7GfsyzZC9IjYo3uz4g4XJuXusq.jpg', alt: 'Textile Industry Operations' },
+    { url: 'https://images.squarespace-cdn.com/content/v1/53c95abee4b0e7d8eb3d6cf2/39ede217-76d4-47ce-90dc-e53655229b34/22bog-textiles-span-superJumbo-v2.jpg', alt: 'Textile Operations' },
+    { url: 'https://t4.ftcdn.net/jpg/19/09/28/61/360_F_1909286192_LMuyygYIipex8vBXniBzTi4RMsUBADMe.jpg', alt: 'Coloring & Finishing' },
+    { url: 'https://t3.ftcdn.net/jpg/19/11/81/10/360_F_1911811016_q4hmj9BskXKz1YHSjg2cCC8vS6EjiFFW.jpg', alt: 'Textile Production' },
+    { url: 'https://img.freepik.com/premium-photo/pile-bright-multicolored-pieces-fabric-bazaar_789279-20170.jpg', alt: 'Multicolored Fabric Pile' },
+  ];
+
+  const maxImages = sourceImages.length;
 
   const handleLoadMore = () => {
     setVisibleCount((prev) => Math.min(prev + increment, maxImages));
   };
 
-  const displayImages = Array.from({ length: visibleCount }, (_, i) => {
-    return {
-      url: sourceImages[i % sourceImages.length],
-      alt: `Gallery Image ${i + 1}`
-    };
-  });
+  const displayImages = sourceImages.slice(0, visibleCount);
 
   return (
     <div className="py-24 bg-white" id="gallery">

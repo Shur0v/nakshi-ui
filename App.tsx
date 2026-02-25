@@ -7,6 +7,7 @@ import About from './components/About';
 import CeoMessage from './components/CeoMessage';
 import WhyUs from './components/WhyUs';
 import ProductList from './components/ProductList';
+import Blog from './components/Blog';
 import TechnicalSupport from './components/TechnicalSupport';
 import Sustainability from './components/Sustainability';
 import Gallery from './components/Gallery';
@@ -40,6 +41,9 @@ const App: React.FC = () => {
         </section>
         <section id="why-us">
           <WhyUs />
+        </section>
+        <section id="blog">
+          <Blog />
         </section>
         <section id="products">
           <ProductList />
