@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center gap-3 mb-6">
               <div className="h-16 w-auto flex items-center">
                 <img
-                  src="/nakshi.png"
+                  src="/Nakshi-logo.svg"
                   alt="Nakshi Color Chem"
                   className="h-full object-contain brightness-0 invert"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}

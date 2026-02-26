@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
         <a href="#home" className="flex items-center gap-3">
           <div className={`transition-all duration-300 flex items-center px-3 rounded-lg ${isScrolled ? 'h-10 md:h-12' : 'h-12 md:h-14 bg-white/10 backdrop-blur-sm'}`}>
             <img
-              src="/nakshi.png"
+              src="/Nakshi-logo.svg"
               alt="Nakshi Color Chem"
               className={`h-full object-contain ${!isScrolled ? 'brightness-0 invert' : ''}`}
               onError={(e) => {
