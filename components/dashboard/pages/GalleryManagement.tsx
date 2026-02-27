@@ -156,7 +156,7 @@ const GalleryManagement: React.FC = () => {
                     {/* Backdrop fixes - separate element for full coverage */}
                     <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-md" onClick={() => setIsModalOpen(false)} />
 
-                    <div className="bg-white w-full sm:max-w-2xl h-full sm:h-auto sm:max-h-[90vh] sm:rounded-[2.5rem] shadow-2xl relative z-10 flex flex-col overflow-hidden animate-in zoom-in-95 duration-300">
+                    <div className="bg-white w-full sm:max-w-2xl h-full sm:h-auto sm:max-h-[100vh] sm:rounded-none shadow-2xl relative z-10 flex flex-col overflow-hidden animate-in zoom-in-95 duration-300">
                         {/* Header */}
                         <div className="p-6 md:p-8 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
                             <div>
