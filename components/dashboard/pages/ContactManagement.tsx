@@ -34,7 +34,7 @@ const ContactManagement: React.FC = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {/* Office Information */}
-                <div className="bg-white rounded-[2.5rem] border border-slate-200 shadow-sm p-10 space-y-8">
+                <div className="bg-white rounded-[2rem] sm:rounded-[2.5rem] border border-slate-200 shadow-sm p-6 md:p-10 space-y-8">
                     <div className="flex items-center gap-4 mb-2">
                         <div className="p-3 bg-primary-50 text-primary-600 rounded-xl">
                             <Building2 size={24} />
@@ -96,7 +96,7 @@ const ContactManagement: React.FC = () => {
 
                 {/* Social & Communication */}
                 <div className="space-y-8">
-                    <div className="bg-white rounded-[2.5rem] border border-slate-200 shadow-sm p-10 space-y-8">
+                    <div className="bg-white rounded-[2rem] sm:rounded-[2.5rem] border border-slate-200 shadow-sm p-6 md:p-10 space-y-8">
                         <div className="flex items-center gap-4 mb-2">
                             <div className="p-3 bg-blue-50 text-blue-600 rounded-xl">
                                 <Globe size={24} />
@@ -138,7 +138,7 @@ const ContactManagement: React.FC = () => {
                         </div>
                     </div>
 
-                    <div className="bg-slate-900 rounded-[2.5rem] shadow-2xl p-10 space-y-8 relative overflow-hidden group">
+                    <div className="bg-slate-900 rounded-[2rem] sm:rounded-[2.5rem] shadow-2xl p-6 md:p-10 space-y-8 relative overflow-hidden group">
                         <div className="absolute top-0 right-0 p-8">
                             <Phone size={80} className="text-primary-500/10 rotate-12 group-hover:rotate-0 transition-transform duration-700" />
                         </div>

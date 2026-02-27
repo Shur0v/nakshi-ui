@@ -33,7 +33,7 @@ const Overview: React.FC = () => {
             </div>
 
             {/* Stats Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
                 {stats.map((stat) => (
                     <div key={stat.name} className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm transition-all hover:shadow-xl hover:border-primary-100 group">
                         <div className="flex items-center justify-between mb-6">
@@ -54,7 +54,7 @@ const Overview: React.FC = () => {
             {/* Main Sections UI */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {/* Recent Inquiries List (Dummy) */}
-                <div className="bg-white rounded-[2.5rem] border border-slate-200 shadow-sm overflow-hidden p-8">
+                <div className="bg-white rounded-[2rem] sm:rounded-[2.5rem] border border-slate-200 shadow-sm overflow-hidden p-6 md:p-8">
                     <div className="flex items-center justify-between mb-8">
                         <h3 className="text-xl font-black text-slate-900 uppercase tracking-tight">Recent Inquiries</h3>
                         <button className="text-primary-600 font-black text-xs uppercase tracking-widest hover:underline">View All</button>
@@ -79,7 +79,7 @@ const Overview: React.FC = () => {
                 </div>
 
                 {/* Technical Health (Dummy) */}
-                <div className="bg-slate-900 rounded-[2.5rem] shadow-2xl p-8 relative overflow-hidden group">
+                <div className="bg-slate-900 rounded-[2rem] sm:rounded-[2.5rem] shadow-2xl p-6 md:p-8 relative overflow-hidden group">
                     <div className="absolute top-0 right-0 p-8">
                         <TrendingUp size={64} className="text-primary-500/20 rotate-12 group-hover:rotate-0 transition-transform duration-700" />
                     </div>

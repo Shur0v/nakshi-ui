@@ -33,7 +33,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
                 </div>
 
                 {/* Login Card */}
-                <div className="bg-slate-800/50 backdrop-blur-xl p-10 rounded-[2.5rem] border border-white/5 shadow-2xl">
+                <div className="bg-slate-800/50 backdrop-blur-xl p-6 sm:p-10 rounded-[2rem] sm:rounded-[2.5rem] border border-white/5 shadow-2xl">
                     <form onSubmit={handleSubmit} className="space-y-6">
                         <div className="space-y-2">
                             <label className="text-xs font-black text-slate-400 uppercase tracking-widest ml-1">Email Address</label>

@@ -118,52 +118,52 @@ const BlogManagement: React.FC = () => {
                         <table className="w-full text-left">
                             <thead className="bg-slate-50 border-b border-slate-200">
                                 <tr>
-                                    <th className="px-8 py-5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Blog Article</th>
-                                    <th className="px-8 py-5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Category</th>
-                                    <th className="px-8 py-5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Author</th>
-                                    <th className="px-8 py-5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Status</th>
-                                    <th className="px-8 py-5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 text-right">Actions</th>
+                                    <th className="px-4 md:px-8 py-5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Blog Article</th>
+                                    <th className="px-4 md:px-8 py-5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Category</th>
+                                    <th className="px-4 md:px-8 py-5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Author</th>
+                                    <th className="px-4 md:px-8 py-5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Status</th>
+                                    <th className="px-4 md:px-8 py-5 text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 text-right">Actions</th>
                                 </tr>
                             </thead>
                             <tbody className="divide-y divide-slate-100">
                                 {mockPosts.map((post) => (
                                     <tr key={post.id} className="hover:bg-slate-50/50 transition-colors group">
-                                        <td className="px-8 py-6">
+                                        <td className="px-4 md:px-8 py-6">
                                             <div className="flex items-center gap-4">
-                                                <div className="w-16 h-12 bg-slate-100 rounded-xl overflow-hidden flex-shrink-0 border border-slate-200">
+                                                <div className="w-16 h-12 bg-slate-100 rounded-xl overflow-hidden flex-shrink-0 border border-slate-200 hidden sm:block">
                                                     <img src={post.images[0].url} alt="" className="w-full h-full object-cover" />
                                                 </div>
                                                 <div>
-                                                    <h4 className="font-bold text-slate-900 line-clamp-1 group-hover:text-primary-600 transition-colors">{post.title}</h4>
+                                                    <h4 className="font-bold text-slate-900 line-clamp-1 group-hover:text-primary-600 transition-colors text-sm md:text-base">{post.title}</h4>
                                                     <div className="flex items-center gap-3 mt-1">
                                                         <span className="flex items-center gap-1 text-[10px] font-bold text-slate-400 uppercase">
                                                             <Calendar size={10} /> {post.date}
                                                         </span>
-                                                        <span className="flex items-center gap-1 text-[10px] font-bold text-slate-400 uppercase">
+                                                        <span className="hidden xs:flex items-center gap-1 text-[10px] font-bold text-slate-400 uppercase">
                                                             <ImageIcon size={10} /> {post.images.length} Media
                                                         </span>
                                                     </div>
                                                 </div>
                                             </div>
                                         </td>
-                                        <td className="px-8 py-6">
+                                        <td className="px-4 md:px-8 py-6">
                                             <span className="px-3 py-1 bg-slate-100 text-slate-600 text-[10px] font-black rounded-lg uppercase tracking-wider">
                                                 {post.category}
                                             </span>
                                         </td>
-                                        <td className="px-8 py-6">
+                                        <td className="px-4 md:px-8 py-6">
                                             <div className="flex items-center gap-2">
                                                 <User size={14} className="text-slate-400" />
-                                                <span className="text-sm font-bold text-slate-700">{post.author}</span>
+                                                <span className="text-xs md:text-sm font-bold text-slate-700 whitespace-nowrap">{post.author}</span>
                                             </div>
                                         </td>
-                                        <td className="px-8 py-6">
+                                        <td className="px-4 md:px-8 py-6">
                                             <div className="flex items-center gap-2 text-emerald-600">
                                                 <CheckCircle2 size={16} />
-                                                <span className="text-[10px] font-black uppercase tracking-widest">Published</span>
+                                                <span className="text-[10px] font-black uppercase tracking-widest hidden sm:inline">Published</span>
                                             </div>
                                         </td>
-                                        <td className="px-8 py-6 text-right">
+                                        <td className="px-4 md:px-8 py-6 text-right">
                                             <div className="inline-flex items-center gap-2">
                                                 <button className="p-2.5 bg-slate-100 text-slate-600 rounded-xl hover:bg-primary-600 hover:text-white transition-all shadow-sm">
                                                     <Edit3 size={16} />
@@ -192,23 +192,23 @@ const BlogManagement: React.FC = () => {
                     {/* Backdrop */}
                     <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-md" onClick={() => setIsModalOpen(false)} />
 
-                    <div className="bg-white w-full max-w-4xl max-h-[90vh] rounded-[2.5rem] shadow-2xl relative z-10 flex flex-col overflow-hidden animate-in zoom-in-95 duration-300">
+                    <div className="bg-white w-full sm:max-w-4xl h-full sm:h-auto sm:max-h-[90vh] sm:rounded-[2.5rem] shadow-2xl relative z-10 flex flex-col overflow-hidden animate-in zoom-in-95 duration-300">
                         {/* Header */}
-                        <div className="p-8 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
+                        <div className="p-6 md:p-8 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
                             <div>
-                                <h2 className="text-2xl font-black text-slate-900 tracking-tight uppercase">Assemble <span className="text-primary-600">New Story</span></h2>
-                                <p className="text-slate-500 text-sm font-medium">Capture industry insights and milestones.</p>
+                                <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight uppercase">Assemble <span className="text-primary-600">New Story</span></h2>
+                                <p className="text-slate-500 text-xs md:text-sm font-medium">Capture industry insights and milestones.</p>
                             </div>
                             <button
                                 onClick={() => setIsModalOpen(false)}
-                                className="w-12 h-12 bg-white border border-slate-200 rounded-2xl flex items-center justify-center text-slate-400 hover:text-rose-500 hover:border-rose-100 hover:shadow-xl hover:shadow-rose-500/10 transition-all active:scale-95"
+                                className="w-10 h-10 md:w-12 md:h-12 bg-white border border-slate-200 rounded-2xl flex items-center justify-center text-slate-400 hover:text-rose-500 hover:border-rose-100 hover:shadow-xl hover:shadow-rose-500/10 transition-all active:scale-95"
                             >
-                                <X size={24} />
+                                <X size={20} />
                             </button>
                         </div>
 
                         {/* Form Body */}
-                        <div className="flex-grow overflow-y-auto p-8 space-y-10">
+                        <div className="flex-grow overflow-y-auto p-6 md:p-8 space-y-8 md:space-y-10">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 {/* Basic Details */}
                                 <div className="space-y-6">
@@ -307,14 +307,14 @@ const BlogManagement: React.FC = () => {
                         </div>
 
                         {/* Footer Actions */}
-                        <div className="p-8 border-t border-slate-100 flex items-center justify-end gap-4 bg-slate-50/50">
+                        <div className="p-6 md:p-8 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-end gap-3 md:gap-4 bg-slate-50/50">
                             <button
                                 onClick={() => setIsModalOpen(false)}
-                                className="px-8 py-4 bg-white border border-slate-200 text-slate-700 rounded-2xl font-bold hover:bg-slate-50 transition-all active:scale-95"
+                                className="w-full sm:w-auto px-8 py-4 bg-white border border-slate-200 text-slate-700 rounded-2xl font-bold hover:bg-slate-50 transition-all active:scale-95"
                             >
                                 Discard
                             </button>
-                            <button className="px-10 py-4 bg-primary-600 text-white rounded-2xl font-black shadow-xl shadow-primary-600/20 hover:bg-primary-700 transition-all flex items-center gap-3 active:scale-95 group">
+                            <button className="w-full sm:w-auto px-10 py-4 bg-primary-600 text-white rounded-2xl font-black shadow-xl shadow-primary-600/20 hover:bg-primary-700 transition-all flex items-center justify-center gap-3 active:scale-95 group">
                                 Publish Story <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
                             </button>
                         </div>

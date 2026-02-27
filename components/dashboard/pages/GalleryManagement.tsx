@@ -106,11 +106,11 @@ const GalleryManagement: React.FC = () => {
                 </div>
 
                 {/* Assets Grid */}
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-6">
                     {images.map((img, i) => (
                         <div
                             key={i}
-                            className="group relative aspect-square bg-white rounded-[2rem] border border-slate-100 shadow-sm overflow-hidden hover:shadow-2xl hover:border-primary-100 transition-all duration-300"
+                            className="group relative aspect-square bg-white rounded-[1.5rem] sm:rounded-[2rem] border border-slate-100 shadow-sm overflow-hidden hover:shadow-2xl hover:border-primary-100 transition-all duration-300"
                         >
                             <img
                                 src={img.url}
@@ -122,15 +122,15 @@ const GalleryManagement: React.FC = () => {
                             <div className="absolute inset-0 bg-slate-900/60 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center gap-3">
                                 <button
                                     onClick={() => openDeleteModal(i)}
-                                    className="w-12 h-12 bg-rose-500 text-white rounded-2xl flex items-center justify-center hover:bg-rose-600 transition-all transform translate-y-4 group-hover:translate-y-0 duration-300 shadow-lg shadow-rose-500/20"
+                                    className="w-10 h-10 sm:w-12 sm:h-12 bg-rose-500 text-white rounded-xl sm:rounded-2xl flex items-center justify-center hover:bg-rose-600 transition-all transform translate-y-4 group-hover:translate-y-0 duration-300 shadow-lg shadow-rose-500/20"
                                 >
-                                    <Trash2 size={20} />
+                                    <Trash2 size={18} />
                                 </button>
                             </div>
 
                             {/* Caption Tag */}
-                            <div className="absolute bottom-4 left-4 right-4 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 delay-100">
-                                <p className="text-[10px] font-black text-white uppercase tracking-widest truncate bg-slate-900/40 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/10 text-center">
+                            <div className="absolute bottom-2 left-2 right-2 sm:bottom-4 sm:left-4 sm:right-4 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 delay-100">
+                                <p className="text-[8px] sm:text-[10px] font-black text-white uppercase tracking-widest truncate bg-slate-900/40 backdrop-blur-md px-2 sm:px-3 py-1 sm:py-1.5 rounded-lg border border-white/10 text-center">
                                     {img.alt}
                                 </p>
                             </div>
@@ -140,12 +140,12 @@ const GalleryManagement: React.FC = () => {
                     {/* Empty State / Add Placeholder */}
                     <button
                         onClick={() => setIsModalOpen(true)}
-                        className="aspect-square bg-slate-50 border-2 border-dashed border-slate-200 rounded-[2rem] flex flex-col items-center justify-center gap-4 text-slate-400 hover:text-primary-600 hover:border-primary-200 hover:bg-primary-50 transition-all group"
+                        className="aspect-square bg-slate-50 border-2 border-dashed border-slate-200 rounded-[1.5rem] sm:rounded-[2rem] flex flex-col items-center justify-center gap-2 sm:gap-4 text-slate-400 hover:text-primary-600 hover:border-primary-200 hover:bg-primary-50 transition-all group"
                     >
-                        <div className="w-14 h-14 bg-white rounded-2xl shadow-sm flex items-center justify-center group-hover:scale-110 transition-transform">
-                            <Plus size={28} />
+                        <div className="w-10 h-10 sm:w-14 sm:h-14 bg-white rounded-xl sm:rounded-2xl shadow-sm flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <Plus size={24} />
                         </div>
-                        <span className="text-[10px] font-black uppercase tracking-widest">Add New Image</span>
+                        <span className="text-[8px] sm:text-[10px] font-black uppercase tracking-widest text-center px-2">Add New Image</span>
                     </button>
                 </div>
             </div>
@@ -156,23 +156,23 @@ const GalleryManagement: React.FC = () => {
                     {/* Backdrop fixes - separate element for full coverage */}
                     <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-md" onClick={() => setIsModalOpen(false)} />
 
-                    <div className="bg-white w-full max-w-2xl max-h-[90vh] rounded-[2.5rem] shadow-2xl relative z-10 flex flex-col overflow-hidden animate-in zoom-in-95 duration-300">
+                    <div className="bg-white w-full sm:max-w-2xl h-full sm:h-auto sm:max-h-[90vh] sm:rounded-[2.5rem] shadow-2xl relative z-10 flex flex-col overflow-hidden animate-in zoom-in-95 duration-300">
                         {/* Header */}
-                        <div className="p-8 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
+                        <div className="p-6 md:p-8 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
                             <div>
-                                <h2 className="text-2xl font-black text-slate-900 tracking-tight uppercase">Upload <span className="text-primary-600">Visual</span></h2>
-                                <p className="text-slate-500 text-sm font-medium">Add new operational or industry photos.</p>
+                                <h2 className="text-xl md:text-2xl font-black text-slate-900 tracking-tight uppercase">Upload <span className="text-primary-600">Visual</span></h2>
+                                <p className="text-slate-500 text-xs md:text-sm font-medium">Add new operational or industry photos.</p>
                             </div>
                             <button
                                 onClick={() => setIsModalOpen(false)}
-                                className="w-12 h-12 bg-white border border-slate-200 rounded-2xl flex items-center justify-center text-slate-400 hover:text-rose-500 hover:border-rose-100 transition-all active:scale-95"
+                                className="w-10 h-10 md:w-12 md:h-12 bg-white border border-slate-200 rounded-2xl flex items-center justify-center text-slate-400 hover:text-rose-500 hover:border-rose-100 transition-all active:scale-95"
                             >
-                                <X size={24} />
+                                <X size={20} />
                             </button>
                         </div>
 
                         {/* Form Body */}
-                        <div className="p-8 space-y-8 overflow-y-auto">
+                        <div className="p-6 md:p-8 space-y-6 md:space-y-8 overflow-y-auto">
                             {/* Method Toggle */}
                             <div className="flex bg-slate-100 p-1.5 rounded-2xl w-full">
                                 <button
@@ -222,14 +222,14 @@ const GalleryManagement: React.FC = () => {
                         </div>
 
                         {/* Footer */}
-                        <div className="p-8 border-t border-slate-100 flex items-center justify-end gap-4 bg-slate-50/50">
+                        <div className="p-6 md:p-8 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-end gap-3 md:gap-4 bg-slate-50/50">
                             <button
                                 onClick={() => setIsModalOpen(false)}
-                                className="px-8 py-4 bg-white border border-slate-200 text-slate-700 rounded-2xl font-bold hover:bg-slate-50 transition-all active:scale-95"
+                                className="w-full sm:w-auto px-8 py-4 bg-white border border-slate-200 text-slate-700 rounded-2xl font-bold hover:bg-slate-50 transition-all active:scale-95"
                             >
                                 Discard
                             </button>
-                            <button className="px-10 py-4 bg-primary-600 text-white rounded-2xl font-black shadow-xl shadow-primary-600/20 hover:bg-primary-700 transition-all flex items-center gap-3 active:scale-95 group">
+                            <button className="w-full sm:w-auto px-10 py-4 bg-primary-600 text-white rounded-2xl font-black shadow-xl shadow-primary-600/20 hover:bg-primary-700 transition-all flex items-center justify-center gap-3 active:scale-95 group">
                                 Add to Gallery <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
                             </button>
                         </div>
