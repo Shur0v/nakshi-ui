@@ -13,7 +13,7 @@ const Sustainability: React.FC = () => {
           </div>
 
           <div className="max-w-3xl relative z-10">
-            <h2 className="text-green-600 font-bold tracking-widest uppercase text-sm mb-4">Responsible Chemistry</h2>
+            <h2 className="text-green-600 font-bold tracking-widest uppercase text-sm mb-4">Responsible Chemistry </h2>
             <h3 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-8">
               Sustainability & Compliance
             </h3>
