@@ -154,10 +154,21 @@ const Loader: React.FC = () => {
 						pointerEvents: 'none'
 					}} />
 					<div style={{
-						position: 'relative', marginLeft: 'auto', marginRight: '24px', fontSize: '15px',
-						fontWeight: 900, color: '#1a2f44', fontFamily: 'Inter, sans-serif', zIndex: 10, letterSpacing: '-0.2px'
+						position: 'relative',
+						marginLeft: 'auto',
+						marginRight: '24px',
+						fontSize: '30px',
+						fontWeight: 900,
+						color: '#1a2f44',
+						fontFamily: 'Inter, sans-serif',
+						zIndex: 10,
+						letterSpacing: '-1px',
+						lineHeight: '35px',
+						display: 'flex',
+						alignItems: 'baseline'
 					}}>
-						{Math.round(lerpProgress)}%
+						{Math.round(lerpProgress)}
+						<span style={{ fontSize: '16px', marginLeft: '2px', fontWeight: 700 }}>%</span>
 					</div>
 					<div style={{
 						position: 'absolute', left: 0, top: 0, width: '100%', height: '100%',
