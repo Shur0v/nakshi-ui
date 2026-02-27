@@ -133,6 +133,85 @@ const Loader: React.FC = () => {
 				willChange: 'clip-path, opacity',
 			}}
 		>
+			{/* ────── PREMIUM TOP PROGRESS BAR ────── */}
+			{!isDone && (
+				<div style={{
+					position: 'absolute',
+					top: 0,
+					left: 0,
+					width: '100%',
+					height: '35px',
+					background: 'rgba(255,255,255,0.05)', // Almost invisible track for better fill pop
+					borderBottom: '1px solid rgba(0,0,0,0.03)',
+					zIndex: 10000,
+					overflow: 'hidden',
+					display: 'flex',
+					alignItems: 'center',
+					opacity: isDone ? 0 : 1,
+					transition: 'opacity 0.8s ease'
+				}}>
+					{/* Animated Fill - Strong Maroon Impact */}
+					<div style={{
+						position: 'absolute',
+						top: 0,
+						left: 0,
+						height: '100%',
+						width: `${lerpProgress}%`,
+						background: 'linear-gradient(90deg, #6a152c 0%, #a41e41 100%)',
+						boxShadow: '0 0 25px rgba(106, 21, 44, 0.4)',
+						transition: 'width 0.2s cubic-bezier(0.1, 0, 0, 1)'
+					}} />
+
+					{/* Glossy Reflection for premium feel */}
+					<div style={{
+						position: 'absolute',
+						top: 0,
+						left: 0,
+						width: '100%',
+						height: '50%',
+						background: 'linear-gradient(to bottom, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0) 100%)',
+						pointerEvents: 'none'
+					}} />
+
+					{/* Percentage Label */}
+					<div style={{
+						position: 'relative',
+						marginLeft: 'auto',
+						marginRight: '24px',
+						fontSize: '15px',
+						fontWeight: 900,
+						color: '#1a2f44', // Bold Navy
+						fontFamily: 'Inter, sans-serif',
+						zIndex: 10,
+						letterSpacing: '-0.2px'
+					}}>
+						{Math.round(lerpProgress)}%
+					</div>
+
+					{/* Progress Indicator Grid */}
+					<div style={{
+						position: 'absolute',
+						left: 0,
+						top: 0,
+						width: '100%',
+						height: '100%',
+						display: 'flex',
+						padding: '0 12px',
+						justifyContent: 'space-between',
+						alignItems: 'center',
+						pointerEvents: 'none'
+					}}>
+						{Array.from({ length: 40 }).map((_, i) => (
+							<div key={i} style={{
+								width: '1px',
+								height: '6px',
+								background: (i / 40 * 100) < lerpProgress ? 'rgba(255,255,255,0.2)' : 'rgba(26, 47, 68, 0.05)',
+							}} />
+						))}
+					</div>
+				</div>
+			)}
+
 			<div
 				style={{
 					position: 'relative',
