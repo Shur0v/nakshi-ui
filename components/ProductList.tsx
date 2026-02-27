@@ -155,9 +155,11 @@ const ProductList: React.FC = () => {
 
   return (
     <div id="products" className="py-24 bg-white relative">
-      {/* Background Decor */}
-      <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-primary-50 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2" />
-      <div className="absolute bottom-0 left-0 w-1/4 h-1/4 bg-blue-50 rounded-full blur-3xl opacity-50 translate-y-1/2 -translate-x-1/2" />
+      {/* Background Decor Wrapper - Hides overflow without breaking sticky children */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-primary-50 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2" />
+        <div className="absolute bottom-0 left-0 w-1/4 h-1/4 bg-blue-50 rounded-full blur-3xl opacity-50 translate-y-1/2 -translate-x-1/2" />
+      </div>
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center mb-12">
@@ -288,8 +290,8 @@ const ProductList: React.FC = () => {
             )}
           </div>
 
-          {/* Sidebar Promo - Sticky Logic Further Refined */}
-          <div className="lg:col-span-4 lg:sticky lg:top-32 h-fit z-20">
+          {/* Sidebar Promo Area - Force Sticky */}
+          <div className="lg:col-span-4 lg:sticky lg:top-36 h-fit z-20 space-y-8 self-start">
             <div className="bg-slate-900 rounded-3xl p-10 text-white shadow-2xl relative overflow-hidden group/promo">
               <div className="absolute inset-0 opacity-10 pointer-events-none" style={{ backgroundImage: 'radial-gradient(#fff 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
               <div className="absolute -bottom-20 -right-20 w-64 h-64 bg-primary-600/20 rounded-full blur-3xl group-hover/promo:scale-110 transition-transform duration-700" />
@@ -316,8 +318,8 @@ const ProductList: React.FC = () => {
             </div>
 
             {/* Design Filler */}
-            <div className="mt-8 p-8 border-2 border-dashed border-slate-100 rounded-3xl opacity-50 hover:opacity-100 transition-opacity">
-              <div className="flex items-center gap-4 text-slate-400">
+            <div className="p-8 border-2 border-dashed border-slate-200 rounded-3xl opacity-60 hover:opacity-100 transition-opacity bg-slate-50/50">
+              <div className="flex items-center gap-4 text-slate-500">
                 <Database size={20} className="text-primary-600" />
                 <p className="text-[10px] font-bold uppercase tracking-widest leading-none">Global Sourcing Network Active</p>
               </div>

@@ -14,6 +14,13 @@
   --primary-950: #031802;
 }
 
+html,
+body {
+  overflow-x: clip;
+  position: relative;
+  width: 100%;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   @apply bg-slate-50 text-slate-900;
