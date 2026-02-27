@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { Facebook, Linkedin, Twitter, ArrowUp } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -46,6 +46,9 @@ const Footer: React.FC = () => {
               <a href="#products" className="hover:text-white transition-colors">Product List</a>
               <a href="#gallery" className="hover:text-white transition-colors">Gallery</a>
               <a href="#contact" className="hover:text-white transition-colors">Contact</a>
+              <Link to="/dashboard" className="text-primary-500 font-bold hover:text-primary-400 transition-colors flex items-center gap-2">
+                Dashboard <div className="w-1.5 h-1.5 bg-primary-500 rounded-full" />
+              </Link>
             </nav>
           </div>
 

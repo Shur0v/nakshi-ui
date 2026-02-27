@@ -1,5 +1,5 @@
-
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Loader from './components/loader';
 import Hero from './components/Hero';
@@ -16,7 +16,14 @@ import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-const App: React.FC = () => {
+// Dashboard Components
+import Login from './components/dashboard/Login';
+import DashboardLayout from './components/dashboard/DashboardLayout';
+import BlogManagement from './components/dashboard/pages/BlogManagement';
+import GalleryManagement from './components/dashboard/pages/GalleryManagement';
+import ContactManagement from './components/dashboard/pages/ContactManagement';
+
+const MainSite: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -67,6 +74,65 @@ const App: React.FC = () => {
       </main>
       <Footer />
     </div>
+  );
+};
+
+const App: React.FC = () => {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainSite />} />
+
+        {/* Dashboard Auth Flow */}
+        <Route
+          path="/dashboard"
+          element={
+            !isAuthenticated ? (
+              <Login onLogin={() => setIsAuthenticated(true)} />
+            ) : (
+              <Navigate to="/dashboard/blogs" />
+            )
+          }
+        />
+
+        <Route
+          path="/dashboard/blogs"
+          element={
+            isAuthenticated ? (
+              <DashboardLayout onLogout={() => setIsAuthenticated(false)}>
+                <BlogManagement />
+              </DashboardLayout>
+            ) : <Navigate to="/dashboard" />
+          }
+        />
+
+        <Route
+          path="/dashboard/gallery"
+          element={
+            isAuthenticated ? (
+              <DashboardLayout onLogout={() => setIsAuthenticated(false)}>
+                <GalleryManagement />
+              </DashboardLayout>
+            ) : <Navigate to="/dashboard" />
+          }
+        />
+
+        <Route
+          path="/dashboard/contact"
+          element={
+            isAuthenticated ? (
+              <DashboardLayout onLogout={() => setIsAuthenticated(false)}>
+                <ContactManagement />
+              </DashboardLayout>
+            ) : <Navigate to="/dashboard" />
+          }
+        />
+
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </Router>
   );
 };
 
