@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
+import Loader from './components/loader';
 import Hero from './components/Hero';
 import TrustStrip from './components/TrustStrip';
 import About from './components/About';
@@ -28,6 +29,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <Loader />
       <Header isScrolled={isScrolled} />
       <main>
         <section id="home">
