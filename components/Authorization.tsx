@@ -29,7 +29,7 @@ const Authorization: React.FC = () => {
                     <p className="text-slate-500 text-[15px] leading-relaxed">
                         Nakshi Color Chem is the officially appointed distributor of{' '}
                         <span className="font-semibold text-slate-700">Huntsman (Singapore) PTE LTD</span> for
-                        its Textile Effects division in Bangladesh — authorized by a formal Distribution
+                        its Textile Effects division in Bangladesh - authorized by a formal Distribution
                         Agreement executed on <span className="font-semibold text-slate-700">April 16, 2015</span>.
                     </p>
                 </div>
