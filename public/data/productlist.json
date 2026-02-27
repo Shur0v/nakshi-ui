@@ -1,0 +1,1827 @@
+[
+    {
+        "category": "CHEMICALS – GENERAL PRODUCTS",
+        "subcategories": [
+            {
+                "name": "Fixing Agents",
+                "products": [
+                    {
+                        "name": "Albafix ECO",
+                        "desc": "Fixing Agent"
+                    },
+                    {
+                        "name": "Albafix FRD",
+                        "desc": "Fixing Agent"
+                    },
+                    {
+                        "name": "Albafix R",
+                        "desc": "Fixing Agent"
+                    }
+                ]
+            },
+            {
+                "name": "Wetting / Anti Foam / Penetration",
+                "products": [
+                    {
+                        "name": "Albalow Conti",
+                        "desc": "Anti foam & Wetting"
+                    },
+                    {
+                        "name": "Albalow FC",
+                        "desc": "Antifoam & Penetration Accelerant"
+                    },
+                    {
+                        "name": "Albalow JET",
+                        "desc": "Antifoam & De-Aerating Agent"
+                    },
+                    {
+                        "name": "Albalow PAD",
+                        "desc": "Wetting Agent"
+                    }
+                ]
+            },
+            {
+                "name": "Anti Creasing / pH / Buffer",
+                "products": [
+                    {
+                        "name": "Albafluid C",
+                        "desc": "Anti Creasing"
+                    },
+                    {
+                        "name": "Albatex AB-45",
+                        "desc": "Acid Buffer & pH Controler"
+                    }
+                ]
+            },
+            {
+                "name": "Dye Bath & Leveling",
+                "products": [
+                    {
+                        "name": "Albatex AD",
+                        "desc": "Dye Bath Conditionar and Soaping"
+                    },
+                    {
+                        "name": "Albatex DBC",
+                        "desc": "Leveling & Sequestering Agent"
+                    },
+                    {
+                        "name": "Albatex CO",
+                        "desc": "Protective Colloid"
+                    },
+                    {
+                        "name": "Albatex RB",
+                        "desc": "Reduction Inhibitor"
+                    }
+                ]
+            },
+            {
+                "name": "Stabilizer / Hardener",
+                "products": [
+                    {
+                        "name": "Clarite CBB",
+                        "desc": "Stabilizer AFEO"
+                    },
+                    {
+                        "name": "Dicrylan V-HKN",
+                        "desc": "Hardner & Coating Agent"
+                    }
+                ]
+            },
+            {
+                "name": "Shade / Reduction / After Cleaning",
+                "products": [
+                    {
+                        "name": "Dicrylan SD",
+                        "desc": "Shade Deeper"
+                    },
+                    {
+                        "name": "Eriopon OLS",
+                        "desc": "Reduction Clearing Agent"
+                    },
+                    {
+                        "name": "Eriopon OS",
+                        "desc": "Aftercleaning Agent"
+                    },
+                    {
+                        "name": "Eriopon R",
+                        "desc": "Reduction Clearing Agent"
+                    }
+                ]
+            },
+            {
+                "name": "Anti Slip / Detergent",
+                "products": [
+                    {
+                        "name": "Foranx W",
+                        "desc": "Anti Sliping Agent"
+                    },
+                    {
+                        "name": "Invadine LUN",
+                        "desc": "Detergent & Wetting Agent"
+                    },
+                    {
+                        "name": "Invaton DAM",
+                        "desc": "Fixing Reducer & Dispersing Agent"
+                    },
+                    {
+                        "name": "Invatex AC",
+                        "desc": "Core Neutralizing Agent"
+                    },
+                    {
+                        "name": "Invatex CRA",
+                        "desc": "Detergent, Wetting Agent & Oil"
+                    },
+                    {
+                        "name": "Invatex CS",
+                        "desc": "Sequestering Agent"
+                    },
+                    {
+                        "name": "Invatex PC",
+                        "desc": "Peroxide Killer"
+                    },
+                    {
+                        "name": "Invazyme ADC",
+                        "desc": "Desizing Enzyme"
+                    }
+                ]
+            },
+            {
+                "name": "Regenerating / Softener",
+                "products": [
+                    {
+                        "name": "Knittex FRRC",
+                        "desc": "Regen Linking Agent"
+                    },
+                    {
+                        "name": "Lyoprint RG GR",
+                        "desc": "Reduction Inhibitor & Oxidizin Agent"
+                    },
+                    {
+                        "name": "Megasoft CEC",
+                        "desc": "Silicon Softener"
+                    }
+                ]
+            },
+            {
+                "name": "Repellents / Softeners",
+                "products": [
+                    {
+                        "name": "Opeophobol CP-C",
+                        "desc": "Oil & Water Repellents"
+                    },
+                    {
+                        "name": "Sapamine CSN",
+                        "desc": "Cationic Softener"
+                    },
+                    {
+                        "name": "Sapamine WWS",
+                        "desc": "Cationic Softener"
+                    },
+                    {
+                        "name": "Sapamine FPG",
+                        "desc": "Cationic Softener Liq"
+                    },
+                    {
+                        "name": "Sapamine KL",
+                        "desc": "Non Ionic Softener"
+                    },
+                    {
+                        "name": "Sapamine SFC",
+                        "desc": "Non Ionic Softener"
+                    }
+                ]
+            },
+            {
+                "name": "Migration Inhibitor",
+                "products": [
+                    {
+                        "name": "Tharmacool MP",
+                        "desc": "Migration Inhibitor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "ULTRATEX / UVITEX / EC SERIES",
+        "subcategories": [
+            {
+                "name": "Cross Linking / Moisture / Silicone",
+                "products": [
+                    {
+                        "name": "Ultrapax ACN New",
+                        "desc": "Cross Linking Agent"
+                    },
+                    {
+                        "name": "Ultraphil HCT",
+                        "desc": "Moisture Management Agent"
+                    },
+                    {
+                        "name": "Ultratex TX",
+                        "desc": "Hydrophilic Silicone & Easy Care"
+                    },
+                    {
+                        "name": "Ultratex SIL",
+                        "desc": "Silicon Softener"
+                    },
+                    {
+                        "name": "Ultravon BSR",
+                        "desc": "Anti Back Staining"
+                    },
+                    {
+                        "name": "Ultravon GPN extra",
+                        "desc": "Extra Detergent & Wetting Agent"
+                    },
+                    {
+                        "name": "Ultravon RW",
+                        "desc": "Detergent & Wetting Agent"
+                    },
+                    {
+                        "name": "Univadine DIF",
+                        "desc": "Polister Lebelling Agent"
+                    },
+                    {
+                        "name": "Univadine TOP",
+                        "desc": "Polister Lebelling Agent"
+                    }
+                ]
+            },
+            {
+                "name": "Optical Brighteners",
+                "products": [
+                    {
+                        "name": "Uvitex 2B",
+                        "desc": "Optical Brightener Mould Resistant"
+                    },
+                    {
+                        "name": "Uvitex BHW",
+                        "desc": "Optical Brightener"
+                    },
+                    {
+                        "name": "Uvitex BLH",
+                        "desc": "Optical Brightener"
+                    },
+                    {
+                        "name": "Uvitex BTU-B",
+                        "desc": "Optical Brightener"
+                    },
+                    {
+                        "name": "Uvitex EDB",
+                        "desc": "Optical Brightener for Polyester"
+                    }
+                ]
+            },
+            {
+                "name": "EC SERIES – Novacron Range",
+                "products": [
+                    {
+                        "name": "Novacron Yellow EC-2R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Orange EC-3R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Orange EC-R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Scarlet EC-6G",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Red EC-2BL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Brilliant Red EC-3GL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Red EC-3B",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Brilliant Blue ECB",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Blue EC-BG",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Navy EC-R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Navy EC-B",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Deep Red EC-D",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Red EC-4B",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron BR Turquoise EC-GN",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Olive EC-NC",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Grey EC-NC",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Yellow NC",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Brown EC-NC",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Yellow EC-NC",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Yellow EC-4G",
+                        "desc": ""
+                    }
+                ]
+            },
+            {
+                "name": "Reactive Dyes – AVITERA SERIES",
+                "products": [
+                    {
+                        "name": "Avitera Black SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Avitera Blue SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Avitera Brilliant Yellow SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Avitera Deep Sea SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Avitera Gold SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Avitera Red SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Avitera Rose SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Avitera Light Blue SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Avitera Light Red SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Avitera Sky SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Avitera Yellow SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Avitera Navy SE",
+                        "desc": ""
+                    }
+                ]
+            },
+            {
+                "name": "Luminous / Fluorescent Series",
+                "products": [
+                    {
+                        "name": "Terasil Red 3BFF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Red GFF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Flavine 10 GFF",
+                        "desc": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "W/W SERIES & DISPERS/VAT/BASIC/DIRECT DYES",
+        "subcategories": [
+            {
+                "name": "W/W SERIES",
+                "products": [
+                    {
+                        "name": "Terasil Black W-SE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Black W-PES",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Blue W-LS",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Golden Yellow W3R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Navy W-RSE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Red W-4BS",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Red WW-3BS",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Red WW-BSF-01 200%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Red WRE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Royal Blue WFL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Turquoise WXN",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Yellow W-6GS",
+                        "desc": ""
+                    }
+                ]
+            },
+            {
+                "name": "DISPERS DYES",
+                "products": [
+                    {
+                        "name": "Terasil Blue DF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Blue 3RF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Black SRLN 200%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Blue DFE-01 200%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Red SD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Red FBN conc",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Navy DRLQ 200%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Violet BL-01 50%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Yellow SD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Terasil Yellow 4G",
+                        "desc": ""
+                    }
+                ]
+            },
+            {
+                "name": "VAT DYES SERIES",
+                "products": [
+                    {
+                        "name": "Novasol Blue RS md",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novasol Brown BR md",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novasol Golden Yellow RK md",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novasol Olive S md",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novasol Yellow 2G md",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novasol Red 2B md",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novasol Green FB md",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novasol Navy DB md",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novasol Yellow 3R md",
+                        "desc": ""
+                    }
+                ]
+            },
+            {
+                "name": "BASIC DYES",
+                "products": [
+                    {
+                        "name": "Novacron Black NN",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Brilliant Blue EG",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Dark Blue S-GL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Deep Orange S4R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Deep Cherry SD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Deep Night SR",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Lemon S-3G",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Navy S-G",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Navy SGI",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Navy WB",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Ocean S-R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Pink S-2G",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Red S-3R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Ruby S-3B",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Super Black G",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Red Win",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Yellow S-3R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Novacron Yellow L-S4G",
+                        "desc": ""
+                    }
+                ]
+            },
+            {
+                "name": "DIRECT DYES SERIES – SOLOPHENYL",
+                "products": [
+                    {
+                        "name": "Solophenyl Yellow ARLE 154%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Yellow GLE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Scarlet BNLE 200%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Red 3BL 140%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Red 4GE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Red 7BE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Bordeaux 3BLE",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Turquoise BRLE 400%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Blue FGLGE 220%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Royal Blue RF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Blue B 250%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Navy RL 130%",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Solophenyl Black FR",
+                        "desc": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "PRETREATMENT & OBA",
+        "subcategories": [
+            {
+                "name": "Enzymes / Wetting / Sequestering",
+                "products": [
+                    {
+                        "name": "Bactosol PHC liq",
+                        "desc": "Alpha amylase enzyme"
+                    },
+                    {
+                        "name": "Bactosol HPA liq",
+                        "desc": "Alpha amylase enzyme"
+                    },
+                    {
+                        "name": "Bactosol HP-2E liq",
+                        "desc": "Alpha amylase enzyme"
+                    },
+                    {
+                        "name": "Kieralon XTRA liq",
+                        "desc": "Wetting agent (continuous)"
+                    },
+                    {
+                        "name": "Kieralon MRZ liq",
+                        "desc": "Wetting agent (continuous)"
+                    },
+                    {
+                        "name": "Kieralon CDP liq",
+                        "desc": "Wetting agent (cont. exh.)"
+                    },
+                    {
+                        "name": "Kieralon XN liq",
+                        "desc": "Oil removing agent"
+                    },
+                    {
+                        "name": "Imerol PCLF pa",
+                        "desc": "Wetting agent (exhaust)"
+                    },
+                    {
+                        "name": "Imerol Jet B conc. liq",
+                        "desc": "Wetting agent (exhaust)"
+                    },
+                    {
+                        "name": "Imerol DJ liq",
+                        "desc": "Wetting agent (exhaust)"
+                    },
+                    {
+                        "name": "Imerol Blue liq",
+                        "desc": "Multi function (exhaust)"
+                    },
+                    {
+                        "name": "Lufibrol ANTOX liq",
+                        "desc": "Sequestering agent (continuous)"
+                    },
+                    {
+                        "name": "Lufibrol 20D liq",
+                        "desc": "Sequestering agent (exhaust)"
+                    },
+                    {
+                        "name": "Prestogen FCB liq",
+                        "desc": "H2O Stabilizer (continuous)"
+                    },
+                    {
+                        "name": "Prestogen SOF liq",
+                        "desc": "H2O Stabilizer (exhaust)"
+                    },
+                    {
+                        "name": "Prestogen SB liq",
+                        "desc": "Multi function (exhaust)"
+                    },
+                    {
+                        "name": "Imacol C2G liq",
+                        "desc": "Crease inhibitor for cel (exhaust)"
+                    },
+                    {
+                        "name": "Imacol X-JET",
+                        "desc": "Crease inhibitor for cel (exhaust)"
+                    },
+                    {
+                        "name": "Imacol MPE liq",
+                        "desc": "Crease inhibitor for pes (exhaust)"
+                    },
+                    {
+                        "name": "Sololokolt AC liq",
+                        "desc": "Crease inhibitor for cel (exhaust)"
+                    },
+                    {
+                        "name": "Bactosol SAP liq",
+                        "desc": "Catalase enzyme"
+                    },
+                    {
+                        "name": "Bactosol CNX liq",
+                        "desc": "Acid cellulose enzyme"
+                    },
+                    {
+                        "name": "Merocel OWXL liq",
+                        "desc": "Wetting agent for mercerizing"
+                    },
+                    {
+                        "name": "Merocel QWL liq",
+                        "desc": "Wetting agent for mercerizing"
+                    },
+                    {
+                        "name": "Sirrix NE liq",
+                        "desc": "Core neutralizer"
+                    },
+                    {
+                        "name": "Antimussol UDF liq",
+                        "desc": "Defoaming Agent"
+                    }
+                ]
+            },
+            {
+                "name": "Optical Brighteners",
+                "products": [
+                    {
+                        "name": "Leucophor BBU 300 P",
+                        "desc": "OBA for CEL (exhaust)"
+                    },
+                    {
+                        "name": "Leucophor BSB liq",
+                        "desc": "OBA for CEL (exhaust)"
+                    },
+                    {
+                        "name": "Leucophor BA-PB liq",
+                        "desc": "OBA for CEL (exhaust)"
+                    },
+                    {
+                        "name": "Leucophor BMB liq",
+                        "desc": "OBA for CEL (exh. + cont.)"
+                    },
+                    {
+                        "name": "Leucophor BMB-B liq",
+                        "desc": "OBA for CEL (exh. + cont.)"
+                    },
+                    {
+                        "name": "Leucophor BMF/BF New liq",
+                        "desc": "OBA for CEL (continuous)"
+                    },
+                    {
+                        "name": "Leucophor BLR liq",
+                        "desc": "OBA for CEL (continuous)"
+                    },
+                    {
+                        "name": "Ultraphor BN liq",
+                        "desc": "OBA for PES (exh. + cont.)"
+                    },
+                    {
+                        "name": "Ultraphor ETBN liq",
+                        "desc": "OBA for PES (exh. + cont.)"
+                    },
+                    {
+                        "name": "Ultraphor PWC liq",
+                        "desc": "OBA for PA (exhaust)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "FUNCTIONAL ADDITIVES & DYEING AGENTS",
+        "subcategories": [
+            {
+                "name": "Functional Additives",
+                "products": [
+                    {
+                        "name": "Rayosan C pa",
+                        "desc": "UV absorber for CEL"
+                    },
+                    {
+                        "name": "Rayosan PES liq",
+                        "desc": "UV absorber for PES"
+                    },
+                    {
+                        "name": "Arkophob DAN liq",
+                        "desc": "HCHO free cross linking agent"
+                    },
+                    {
+                        "name": "Umidol APY liq",
+                        "desc": "Phenolic yellowing protector PA"
+                    },
+                    {
+                        "name": "Umidol UW p",
+                        "desc": "Thermal yellowing protector PA"
+                    },
+                    {
+                        "name": "Umidol PAT liq",
+                        "desc": "Thermal yellowing protector for PA"
+                    },
+                    {
+                        "name": "Fifurin AKT liq",
+                        "desc": "Anti static agent"
+                    },
+                    {
+                        "name": "Dicofix SW liq",
+                        "desc": "Anti sliping agent"
+                    },
+                    {
+                        "name": "Fluowet OB liq",
+                        "desc": "Finishing wetting agent"
+                    }
+                ]
+            },
+            {
+                "name": "Dyeing Agents",
+                "products": [
+                    {
+                        "name": "Drimagen E 3R liq",
+                        "desc": "Leveling agent for REA (exhaust)"
+                    },
+                    {
+                        "name": "Dekol 1097 liq",
+                        "desc": "Dye bath string agent fo"
+                    },
+                    {
+                        "name": "Dekol SN liq",
+                        "desc": "Dye bath sequestering agent for REA"
+                    },
+                    {
+                        "name": "Dekol SN-S liq",
+                        "desc": "Dye bath sequester"
+                    },
+                    {
+                        "name": "Leon EHC liq",
+                        "desc": "Dye bath wetting agent"
+                    },
+                    {
+                        "name": "Primasol NF liq",
+                        "desc": "Dye bath wetting agent"
+                    },
+                    {
+                        "name": "Kieralon EH liq",
+                        "desc": "Dye bath wetting agent"
+                    },
+                    {
+                        "name": "Solidokoll V liq",
+                        "desc": "Migration inhibiting agent"
+                    },
+                    {
+                        "name": "Solidokoll NX liq",
+                        "desc": "Migration inhibiting agent"
+                    },
+                    {
+                        "name": "Solidokoll FC-AM liq",
+                        "desc": "Migration inhibiting agent"
+                    },
+                    {
+                        "name": "Revatol S",
+                        "desc": "Mild oxidizing agent for REA"
+                    },
+                    {
+                        "name": "Revatol AF liq",
+                        "desc": "Mild oxidizing agent for PES"
+                    },
+                    {
+                        "name": "Optid PSD liq",
+                        "desc": "pH Buffer for PES"
+                    },
+                    {
+                        "name": "Eganal PS liq",
+                        "desc": "Leveling agent for PES (exhaust)"
+                    },
+                    {
+                        "name": "Eganal DFT liq",
+                        "desc": "Mild stripping agent for PES"
+                    },
+                    {
+                        "name": "Dilatin POE liq",
+                        "desc": "Carrier for PES"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "DYEING – DISPERSING / pH / LEVELING / FIXING",
+        "subcategories": [
+            {
+                "name": "Dispersing / pH / Leveling / Fixing",
+                "products": [
+                    {
+                        "name": "Lyacol PRDN liq.",
+                        "desc": "Dispersing agent for PES"
+                    },
+                    {
+                        "name": "Optidiv NS liq.",
+                        "desc": "PH Buffer for PA"
+                    },
+                    {
+                        "name": "Lyogen NH liq.",
+                        "desc": "Leveling agent for PA"
+                    },
+                    {
+                        "name": "Lyogen CN liq.",
+                        "desc": "Leveling agent for PA"
+                    },
+                    {
+                        "name": "Lyogen PAM liq.",
+                        "desc": "Leveling agent for PA"
+                    },
+                    {
+                        "name": "Reducing Agent Dp",
+                        "desc": "Reducing agent for Sulphur"
+                    },
+                    {
+                        "name": "Ladiipur RSK liq.",
+                        "desc": "Wash off agent for REA"
+                    },
+                    {
+                        "name": "Cyclanon XC-W liq.",
+                        "desc": "Wash off agent for REA"
+                    },
+                    {
+                        "name": "Ekalin Fliq",
+                        "desc": "Dispersant-wash off agent"
+                    },
+                    {
+                        "name": "Optifix EC liq.",
+                        "desc": "Fixing agent for CEL/PA"
+                    },
+                    {
+                        "name": "Optifix EC-N liq.",
+                        "desc": "Fixing agent for CEL/PA"
+                    },
+                    {
+                        "name": "Optifix RS liq.",
+                        "desc": "Fixing agent for CEL"
+                    },
+                    {
+                        "name": "Optifix E 50 liq.",
+                        "desc": "Fixing agent for CEL"
+                    },
+                    {
+                        "name": "Optifix CLC liq.",
+                        "desc": "Fixing agent for CEL (C12 fastness)"
+                    },
+                    {
+                        "name": "Nylofixen HF liq.",
+                        "desc": "Fixing agent for PA"
+                    },
+                    {
+                        "name": "Direfix SD liq.",
+                        "desc": "Fixing agent for CEL"
+                    },
+                    {
+                        "name": "Ceramine WNSR liq.",
+                        "desc": "Multifunction for Dk. Bliss Method"
+                    },
+                    {
+                        "name": "Solidokoll DPR liq.",
+                        "desc": "Pick Up Improver"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "SOFTENING & FINISHING",
+        "subcategories": [
+            {
+                "name": "Softening (Cationic / Non-ionic / Silicon)",
+                "products": [
+                    {
+                        "name": "Cepreton UC p",
+                        "desc": "Cationic softener"
+                    },
+                    {
+                        "name": "Cepreton UN p",
+                        "desc": "Non ionic softener"
+                    },
+                    {
+                        "name": "Silligen Sil liq.",
+                        "desc": "Hydrophilic silicon"
+                    },
+                    {
+                        "name": "Silligen Sil-S liq.",
+                        "desc": "Hydrophilic silicon"
+                    },
+                    {
+                        "name": "Silligen SIS-A liq.",
+                        "desc": "Hydrophilic silicon"
+                    },
+                    {
+                        "name": "Silligen SIM liq.",
+                        "desc": "Hydrophilic silicon"
+                    },
+                    {
+                        "name": "Silligen 3P plus liq.",
+                        "desc": "Hydrophilic silicon"
+                    },
+                    {
+                        "name": "Solusoft NMW liq.",
+                        "desc": "Silicon for shade deepener"
+                    },
+                    {
+                        "name": "Solusoft UP/NUP liq.",
+                        "desc": "Silicon for shade deepener"
+                    },
+                    {
+                        "name": "Solusoft FE liq.",
+                        "desc": "Wet rub improver for Pigment print"
+                    }
+                ]
+            },
+            {
+                "name": "Ordinary & Special Finishing",
+                "products": [
+                    {
+                        "name": "Hydropen RPU liq.",
+                        "desc": "Moisture management for cotton"
+                    },
+                    {
+                        "name": "Hydropen SRHA liq.",
+                        "desc": "Moisture management for PES"
+                    },
+                    {
+                        "name": "Ceralube SVN liq.",
+                        "desc": "Sewability improver"
+                    },
+                    {
+                        "name": "Ceralube PHD liq.",
+                        "desc": "Sewability improver"
+                    },
+                    {
+                        "name": "Ceralube JWJ liq.",
+                        "desc": "Sewability improver Jet Stable"
+                    },
+                    {
+                        "name": "Ceranine HDP liq.",
+                        "desc": "–"
+                    },
+                    {
+                        "name": "Fixapret series",
+                        "desc": "Crease & shrink resistant"
+                    },
+                    {
+                        "name": "Arkafix series",
+                        "desc": "Crease & shrink resistant"
+                    },
+                    {
+                        "name": "Sanitized series",
+                        "desc": "Anti bacterial finish"
+                    },
+                    {
+                        "name": "Pekoflame series",
+                        "desc": "Flame retardant"
+                    },
+                    {
+                        "name": "Appretan series",
+                        "desc": "Polymer dispersion"
+                    },
+                    {
+                        "name": "Nuva series",
+                        "desc": "Water, soil oil repellent/release"
+                    },
+                    {
+                        "name": "Smart Repel Hydro CMD liq.",
+                        "desc": "Free water repellent for cotton"
+                    },
+                    {
+                        "name": "Smart Repel Hydro PM liq.",
+                        "desc": "Free water repellent for synthetic"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "PRINTING",
+        "subcategories": [
+            {
+                "name": "Thickeners / Binders / Fixing / Softeners / Emulsifier",
+                "products": [
+                    {
+                        "name": "Lutexel F-HT liq",
+                        "desc": "Thickener for Pigment Printing"
+                    },
+                    {
+                        "name": "Lutexal HT plus liq",
+                        "desc": "Thickener for Pigment Printing"
+                    },
+                    {
+                        "name": "Lutexal CSN liq",
+                        "desc": "Thickener for Pigment Printing"
+                    },
+                    {
+                        "name": "Lutexal DRA liq",
+                        "desc": "Thickener for Reactive Printing"
+                    },
+                    {
+                        "name": "Helizarin 77N liq",
+                        "desc": "Binder for Pigment Printing"
+                    },
+                    {
+                        "name": "Helizarin CS liq",
+                        "desc": "Binder for Pigment Printing"
+                    },
+                    {
+                        "name": "Helizarin CN plus liq",
+                        "desc": "Binder for Pigment Printing"
+                    },
+                    {
+                        "name": "Helizarin BD liq",
+                        "desc": "Binder for Pigment Printing"
+                    },
+                    {
+                        "name": "Helizarin ET plus liq",
+                        "desc": "Binder for Pigment Printing"
+                    },
+                    {
+                        "name": "Helizarin ST ECO liq",
+                        "desc": "Binder for Pigment Printing"
+                    },
+                    {
+                        "name": "Luprintol Fixing Agent SE liq.",
+                        "desc": "Fixing for Pigment Printing"
+                    },
+                    {
+                        "name": "Luprintol Fixing Agent SF liq.",
+                        "desc": "Fixing for Pigment Printing"
+                    },
+                    {
+                        "name": "Luprintol Soft SIG liq.",
+                        "desc": "Softening for Pigment Printing"
+                    },
+                    {
+                        "name": "Luprintol Soft VSN liq.",
+                        "desc": "Softening for Pigment Printing"
+                    },
+                    {
+                        "name": "Luprintol Emulsifier PC-New liq.",
+                        "desc": "Emulsifier for Pigment Printing"
+                    },
+                    {
+                        "name": "Luprintol Antifoam TC-ECO liq.",
+                        "desc": "Antifoam for Pigment Printing"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "DYES – REACTIVE (DRIMAREN 系列)",
+        "subcategories": [
+            {
+                "name": "CL-HF-K-ULTIMATE SERIES",
+                "products": [
+                    {
+                        "name": "Drimaren Yellow CL-3G conc.",
+                        "desc": "Exhaust"
+                    },
+                    {
+                        "name": "Drimaren Yellow CL-2R",
+                        "desc": "Exhaust"
+                    },
+                    {
+                        "name": "Drimaren Red CL-5B",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Red CL-BL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Orange CL-3R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Brilliant Orange 6R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Brilliant Blue GR",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Blue CL-BR",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Turquoise CL-B",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Navy CL-R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Black CL-SD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Yellow HF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Deep Red HF-4B",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Scarlet HF-3G",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Blue HF-RL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Dark Blue HF-CD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Navy HF-6GN",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Yellow K-2R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Red K-4BL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Red K-8R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Orange K-3RL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Violet K-2RL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Amber HD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Yellow HD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Yellow HF-R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Olive HF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Citron HD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Rubine HD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Carmine ES",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Red HF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Brown HF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Blue HD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Blue HF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Sapphire HD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Turquoise HD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Navy HD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Ultimate Night Sky HD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Black HD-G",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Blue X-BLN",
+                        "desc": "Exhaust"
+                    }
+                ]
+            },
+            {
+                "name": "P SERIES (Printing)",
+                "products": [
+                    {
+                        "name": "Drimaren Yellow P-6GS",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Golden Yellow P-2R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Red P-4B",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Red P-BN",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Orange P-2RN",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Blue P-3RL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Blue P-3R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Violet P-2R",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Turquoise P-GRS",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Navy P-2RS",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Black P-BL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Black P-GR",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Drimaren Black P-LS",
+                        "desc": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "DYES – DISPERSE (FORON SERIES)",
+        "subcategories": [
+            {
+                "name": "FORON S-SRD-SERD-E-SPWF-SWF-AS SERIES",
+                "products": [
+                    {
+                        "name": "Foron Yellow S-6GLN",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Yellow Brown S-2RFL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Yellow Brown 2-2RFL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Brilliant Red S-RGL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Rubine S-2GFL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Brilliant Violet S-3RL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Blue S-2RN",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Blue S-2G",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Brilliant Blue S-BG",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Navy S-2GRL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Luminous Yellow S-10 DGN",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Luminous Red S-DGM",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Luminous Red S-DBN",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Orange S-RD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Scarlet S-RD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Blue S-RD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Navy S-RD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Black S-RD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Brilliant Yellow SE-RD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Red SE-RD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Rubine SE-RD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Orange SE-RD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Black SE-RD 400",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Brilliant Red E-2BL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Brilliant Yellow SP-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Canary SP-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Carbon SP-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Black SP-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Brilliant Yellow S-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Golden Yellow S-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Red S-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Crimson S-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Magenta S-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Rubine S-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Cyanine S-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Turquoise S-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Navy S-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Black S-WF",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Blue AS-3L",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Navy AS-3L",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Orange S-2GL ECO",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Rubine S-2GL ECO",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Navy S-2GL ECO",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Navy SE 300 ECO",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Foron Black SE 300 ECO",
+                        "desc": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "PIGMENT PRINTING & INDOSOL DYES",
+        "subcategories": [
+            {
+                "name": "PRINTOFIX SERIES (Pigment)",
+                "products": [
+                    {
+                        "name": "Printofix Yellow FB-G",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Brilliant Yellow FB-RRT",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Gaiden Yellow FB-RM",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Red T-N",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Red R-N",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Crimson ECO",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Pink T-E",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Orange FB-G",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Blue FB-T",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Violet FB-ST ECO",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Green FB-BT",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Turquoise FB-BT",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Navy T-V",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Navy AK",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Black F-HD",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Printofix Black H-RT-ID",
+                        "desc": ""
+                    }
+                ]
+            },
+            {
+                "name": "INDOSOL SERIES (Exhaust)",
+                "products": [
+                    {
+                        "name": "Indosol Yellow SF-GL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Yellow SF-2RL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Orange 2GL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Red BA 150",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Rubine SF-RGN",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Scarlet BL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Rose FR (PK)",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Brown RBL (PK)",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Dark Blue GL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Royal Blue 3RL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Turquoise FBL 400",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Navy SS-BL",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Indosol Black NF 1200",
+                        "desc": ""
+                    }
+                ]
+            },
+            {
+                "name": "DIRESUL EARTH DYES (Direct Indosol)",
+                "products": [
+                    {
+                        "name": "Diresul Earth Stone liq.",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Diresul Earth Forest liq.",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Diresul Earth Sand liq.",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Diresul Earth Clay liq.",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Diresul Earth Oak liq.",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Diresul Earth Cotton liq.",
+                        "desc": ""
+                    },
+                    {
+                        "name": "Diresul Earth Maple liq.",
+                        "desc": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
