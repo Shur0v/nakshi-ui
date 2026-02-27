@@ -51,9 +51,7 @@ const App: React.FC = () => {
         <section id="blog">
           <Blog />
         </section>
-        <section id="products">
-          <ProductList />
-        </section>
+        <ProductList />
         <section id="support">
           <TechnicalSupport />
         </section>

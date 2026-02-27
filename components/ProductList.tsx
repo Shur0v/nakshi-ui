@@ -154,7 +154,7 @@ const ProductList: React.FC = () => {
   }, [data, selectedCategory, searchQuery, activeSubFilter]);
 
   return (
-    <div id="products" className="py-24 bg-white relative overflow-hidden">
+    <div id="products" className="py-24 bg-white relative">
       {/* Background Decor */}
       <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-primary-50 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2" />
       <div className="absolute bottom-0 left-0 w-1/4 h-1/4 bg-blue-50 rounded-full blur-3xl opacity-50 translate-y-1/2 -translate-x-1/2" />
@@ -180,7 +180,7 @@ const ProductList: React.FC = () => {
                   setGlobalSearchQuery(e.target.value);
                   setShowSuggestions(true);
                 }}
-                className="w-full px-14 py-5 bg-slate-50 border-2 border-slate-100 rounded-2xl focus:border-primary-500 focus:bg-white focus:outline-none transition-all shadow-lg shadow-slate-200/50 font-semibold"
+                className="w-full px-14 py-5 bg-white border-2 border-primary-600 rounded-2xl focus:outline-none transition-all shadow-lg shadow-primary-100 font-semibold"
               />
               <Search className="absolute left-5 top-1/2 -translate-y-1/2 text-primary-600" size={24} />
               {globalSearchQuery && (
@@ -242,9 +242,9 @@ const ProductList: React.FC = () => {
           </div>
         </div>
 
-        {/* Categories Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mt-8">
-          <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
+        {/* Categories Grid - Explicitly structured for sticky sidebar */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mt-8 overflow-visible">
+          <div className="grid grid-cols-1 gap-4 lg:col-span-8">
             {filteredMain.length > 0 ? (
               filteredMain.map((item, i) => (
                 <button
@@ -288,27 +288,38 @@ const ProductList: React.FC = () => {
             )}
           </div>
 
-          {/* Sidebar Promo */}
-          <div className="sticky top-28">
-            <div className="bg-slate-900 rounded-3xl p-10 text-white shadow-2xl relative overflow-hidden">
+          {/* Sidebar Promo - Sticky Logic Further Refined */}
+          <div className="lg:col-span-4 lg:sticky lg:top-32 h-fit z-20">
+            <div className="bg-slate-900 rounded-3xl p-10 text-white shadow-2xl relative overflow-hidden group/promo">
               <div className="absolute inset-0 opacity-10 pointer-events-none" style={{ backgroundImage: 'radial-gradient(#fff 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
+              <div className="absolute -bottom-20 -right-20 w-64 h-64 bg-primary-600/20 rounded-full blur-3xl group-hover/promo:scale-110 transition-transform duration-700" />
 
               <div className="relative z-10">
-                <div className="w-12 h-12 bg-primary-600 rounded-xl flex items-center justify-center mb-8 shadow-lg shadow-primary-500/20">
-                  <Globe size={24} />
+                <div className="w-16 h-16 bg-primary-600 rounded-2xl flex items-center justify-center mb-8 shadow-2xl shadow-primary-600/40 animate-bounce-slow">
+                  <Globe size={32} />
                 </div>
-                <h4 className="text-3xl font-bold mb-6 leading-tight">Can't find what <br />you're looking for?</h4>
-                <p className="text-slate-400 mb-8 leading-relaxed text-lg">
-                  Our full range includes hundreds of specialty solutions. Share your fabric type and target performance, and we’ll prepare a custom technical recommendation.
+                <h4 className="text-2xl font-black mb-6 leading-tight uppercase tracking-tighter">
+                  Can't find what <br /><span className="text-primary-400">you're looking for?</span>
+                </h4>
+                <p className="text-slate-400 mb-10 leading-relaxed font-medium text-sm">
+                  Our database is vast. If a specific chemical series isn't listed, our technical team can source it directly for you.
                 </p>
                 <div className="space-y-4">
-                  <a href="#contact" className="flex items-center justify-between w-full px-8 py-5 bg-primary-600 rounded-2xl font-bold transition-all hover:bg-primary-700 hover:scale-[1.02] active:scale-[0.98] shadow-xl shadow-primary-600/20 group">
-                    Custom Technical Request <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                  <a href="#contact" className="flex items-center justify-between w-full px-8 py-5 bg-primary-600 rounded-2xl font-black transition-all hover:bg-primary-700 group hover:shadow-2xl hover:shadow-primary-600/40 text-sm">
+                    Custom Request <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
                   </a>
-                  <a href="#contact" className="flex items-center justify-between w-full px-8 py-5 bg-white/5 border border-white/10 rounded-2xl font-bold transition-all hover:bg-white/10 group">
-                    Instant Sales WhatsApp <Droplets size={20} className="text-primary-400" />
+                  <a href="#contact" className="flex items-center justify-between w-full px-8 py-5 bg-white/5 border border-white/10 rounded-2xl font-bold transition-all hover:bg-white/10 text-sm">
+                    Sales WhatsApp <Droplets size={18} className="text-primary-400" />
                   </a>
                 </div>
+              </div>
+            </div>
+
+            {/* Design Filler */}
+            <div className="mt-8 p-8 border-2 border-dashed border-slate-100 rounded-3xl opacity-50 hover:opacity-100 transition-opacity">
+              <div className="flex items-center gap-4 text-slate-400">
+                <Database size={20} className="text-primary-600" />
+                <p className="text-[10px] font-bold uppercase tracking-widest leading-none">Global Sourcing Network Active</p>
               </div>
             </div>
           </div>
@@ -347,7 +358,7 @@ const ProductList: React.FC = () => {
                     value={searchQuery}
                     autoFocus
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full pl-12 pr-4 py-3 bg-white border-2 border-slate-100 rounded-2xl focus:border-primary-500 focus:outline-none transition-all shadow-sm font-medium"
+                    className="w-full pl-12 pr-4 py-3 bg-white border-2 border-primary-600 rounded-2xl focus:outline-none transition-all shadow-sm font-medium"
                   />
                   {searchQuery && (
                     <button onClick={() => setSearchQuery('')} className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-300 hover:text-slate-600">
@@ -363,7 +374,6 @@ const ProductList: React.FC = () => {
 
             {/* Modal Body */}
             <div className="flex flex-1 overflow-hidden">
-              {/* Sidebar Filters - Only show if not searching globally inside modal */}
               {!searchQuery && (
                 <div className="hidden md:flex flex-col w-72 border-r border-slate-100 bg-slate-50/30 overflow-y-auto p-6 gap-2">
                   <h5 className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2 flex items-center gap-2">
@@ -390,13 +400,11 @@ const ProductList: React.FC = () => {
                 </div>
               )}
 
-              {/* Main Product List */}
               <div className="flex-1 overflow-y-auto p-6 md:p-10 bg-white">
                 {filteredProducts.length > 0 ? (
                   <div className="space-y-12">
                     {filteredProducts.map((catMatch, i) => (
                       <div key={i} className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-                        {/* Show category header if searching globally */}
                         {searchQuery && (
                           <div className="px-4 py-2 bg-slate-900 text-white text-[10px] font-black uppercase tracking-widest rounded-lg inline-block mb-8">
                             Category: {catMatch.category}
