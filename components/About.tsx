@@ -26,7 +26,7 @@ const About: React.FC = () => {
               About Nakshi Color Chem
             </h3>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              Nakshi Color Chem is a Bangladesh-based textile chemical distributor focused on coloration and performance solutions for dyeing, washing, and finishing operations. We combine local market understanding with global technical standards through our partnership with Archroma Textile Effects.
+              <b>Nakshi Color Chem</b> is a Bangladesh-based textile chemical distributor focused on coloration and performance solutions for dyeing, washing, and finishing operations. We combine local market understanding with global technical standards through our partnership with <b>Archroma Textile Effects</b>.
             </p>
 
             <div className="space-y-4">
