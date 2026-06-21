@@ -5,6 +5,8 @@ import { X, ChevronLeft, ChevronRight, ShieldCheck } from 'lucide-react';
 const agreements = [
     { src: '/agreement1.jpg', label: 'Distribution Agreement — Page 1' },
     { src: '/agreement2.jpg', label: 'Distribution Agreement — Page 2' },
+    { src: '/agreement3.jpg', label: 'Distribution Agreement — Page 3' },
+    { src: '/agreement4.jpg', label: 'Distribution Agreement — Page 4' },
 ];
 
 const Authorization: React.FC = () => {
